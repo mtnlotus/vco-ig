@@ -1,0 +1,355 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "well-being-signs",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+    ]
+  },
+  "url": "http://va.gov/fhir/us/pco/Questionnaire/well-being-signs",
+  "version": "0.1.0",
+  "name": "WellBeingSigns",
+  "title": "Well-Being Signs",
+  "description": "Well-Being Signs (WBS) is a 3-question quantitative scale that was designed to provide a quick and easy way to assess how Veterans are doing in their daily lives.",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-03-26",
+  "publisher": "U.S. Department of Veterans Affairs",
+  "contact": [
+    {
+      "name": "U.S. Department of Veterans Affairs",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.va.gov/wholehealth"
+        }
+      ]
+    }
+  ],
+  "useContext": [
+    {
+      "code": {
+        "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+        "code": "focus"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts-temporary",
+            "code": "well-being",
+            "display": "Well-Being"
+          }
+        ]
+      }
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "copyright": "Used by permission of U.S. Department of Veterans Affairs, all rights reserved Creative Commons License",
+  "code": [
+    {
+      "system": "http://va.gov/fhir/us/vco/CodeSystem/well-being-signs",
+      "code": "well-being-signs",
+      "display": "Well-Being Signs"
+    }
+  ],
+  "item": [
+    {
+      "linkId": "/well-being-signs",
+      "text": "Well-Being Signs",
+      "type": "group",
+      "required": false,
+      "item": [
+        {
+          "linkId": "/instructions",
+          "type": "display",
+          "text": "For these questions, please consider the most important things that you do, or wish to do, in your daily life. This might include having a job, managing your health and finances, spending time with family and friends, or participating in leisure - time activities. If you are not sure which response to choose, please make your best guess."
+        },
+        {
+          "linkId": "/satisfied",
+          "code": [
+            {
+              "system": "http://va.gov/fhir/us/vco/CodeSystem/well-being-signs",
+              "code": "satisfied",
+              "display": "Fully Satisfied"
+            }
+          ],
+          "text": "Over the past month, on average how often have you been Fully Satisfied with how these things are going?",
+          "type": "choice",
+          "repeats": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6111-4",
+                "display": "0"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6112-2",
+                "display": "1"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6113-0",
+                "display": "2 or more"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6114-8",
+                "display": "3"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6115-5",
+                "display": "4"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10137-0",
+                "display": "5"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10138-8",
+                "display": "6"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10139-6",
+                "display": "7"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10140-4",
+                "display": "8"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10141-2",
+                "display": "9"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA13942-0",
+                "display": "10"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "/involved",
+          "code": [
+            {
+              "system": "http://va.gov/fhir/us/vco/CodeSystem/well-being-signs",
+              "code": "involved",
+              "display": "Regularly Involved"
+            }
+          ],
+          "text": "Over the past month, on average how often have you been Regularly Involved in things that are important to you?",
+          "type": "choice",
+          "repeats": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6111-4",
+                "display": "0"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6112-2",
+                "display": "1"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6113-0",
+                "display": "2 or more"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6114-8",
+                "display": "3"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6115-5",
+                "display": "4"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10137-0",
+                "display": "5"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10138-8",
+                "display": "6"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10139-6",
+                "display": "7"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10140-4",
+                "display": "8"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10141-2",
+                "display": "9"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA13942-0",
+                "display": "10"
+              }
+            }
+          ]
+        },
+        {
+          "linkId": "/functioning",
+          "code": [
+            {
+              "system": "http://va.gov/fhir/us/vco/CodeSystem/well-being-signs",
+              "code": "functioning",
+              "display": "Functioning your best"
+            }
+          ],
+          "text": "Over the past month, on average how often have you been Functioning Your Best in the most important things you do?",
+          "type": "choice",
+          "repeats": false,
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6111-4",
+                "display": "0"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6112-2",
+                "display": "1"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6113-0",
+                "display": "2 or more"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6114-8",
+                "display": "3"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA6115-5",
+                "display": "4"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10137-0",
+                "display": "5"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10138-8",
+                "display": "6"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10139-6",
+                "display": "7"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10140-4",
+                "display": "8"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA10141-2",
+                "display": "9"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://loinc.org",
+                "code": "LA13942-0",
+                "display": "10"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
