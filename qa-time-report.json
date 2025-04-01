@@ -1,0 +1,262 @@
+{
+  "date" : "Tue, 01 Apr, 2025 21:18:03 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-va.fhir.vco.json",
+      "size" : 3835,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 59,
+          "length" : 32
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 60,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 427
+        },
+        {
+          "activity" : "validate",
+          "start" : 61,
+          "length" : 11400
+        },
+        {
+          "activity" : "generate1",
+          "start" : 73,
+          "length" : 110
+        },
+        {
+          "activity" : "generate2",
+          "start" : 75,
+          "length" : 94
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 91,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 91,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 106,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-pcoPatientJones.json",
+      "size" : 471,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 59,
+          "length" : 38
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 60,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 834
+        },
+        {
+          "activity" : "validate",
+          "start" : 73,
+          "length" : 10
+        },
+        {
+          "activity" : "generate1",
+          "start" : 73,
+          "length" : 45
+        },
+        {
+          "activity" : "generate2",
+          "start" : 76,
+          "length" : 26
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Practitioner-pcoPractitionerAnderson.json",
+      "size" : 494,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 59,
+          "length" : 31
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 61,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 73,
+          "length" : 10
+        },
+        {
+          "activity" : "generate1",
+          "start" : 73,
+          "length" : 43
+        },
+        {
+          "activity" : "generate2",
+          "start" : 76,
+          "length" : 21
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Practitioner-pcoPractitionerGonzalez.json",
+      "size" : 508,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 59,
+          "length" : 31
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 61,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 73,
+          "length" : 8
+        },
+        {
+          "activity" : "generate1",
+          "start" : 73,
+          "length" : 44
+        },
+        {
+          "activity" : "generate2",
+          "start" : 76,
+          "length" : 19
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/questionnaire/Questionnaire-health-inventory-example.json",
+      "size" : 26527,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 59,
+          "length" : 23
+        },
+        {
+          "activity" : "load",
+          "start" : 59,
+          "length" : 40
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 60,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 61,
+          "length" : 62
+        },
+        {
+          "activity" : "validate",
+          "start" : 73,
+          "length" : 351
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 73,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 74,
+          "length" : 212
+        },
+        {
+          "activity" : "generate2",
+          "start" : 76,
+          "length" : 90
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 91,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 91,
+          "length" : 5
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/questionnaire/Questionnaire-well-being-signs.json",
+      "size" : 10470,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 59,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 59,
+          "length" : 18
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 60,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 61,
+          "length" : 24
+        },
+        {
+          "activity" : "validate",
+          "start" : 73,
+          "length" : 56
+        },
+        {
+          "activity" : "generate1",
+          "start" : 74,
+          "length" : 85
+        },
+        {
+          "activity" : "generate2",
+          "start" : 76,
+          "length" : 55
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 91,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 91,
+          "length" : 2
+        }
+      ]
+    }
+  ]
+}

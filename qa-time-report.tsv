@@ -1,0 +1,7 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	responsesForQuestionnaire	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-va.fhir.vco.json	3835	-	0	0	0	0	0	0	4	427	0	0	0	0	0	0	0	0	0	0	110	94	0	0	0	0	3	0	1
+fsh-generated/resources/Patient-pcoPatientJones.json	471	38	0	0	1	0	0	0	0	834	0	0	0	0	0	0	0	0	0	0	45	26	0	0	0	0	0	0	0
+fsh-generated/resources/Practitioner-pcoPractitionerAnderson.json	494	31	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	43	21	0	0	0	0	0	0	0
+fsh-generated/resources/Practitioner-pcoPractitionerGonzalez.json	508	31	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	44	19	0	0	0	0	0	0	0
+input/resources/questionnaire/Questionnaire-health-inventory-example.json	26527	23	0	0	0	0	0	0	3	62	0	0	0	0	0	0	0	1	0	0	212	90	0	0	0	0	5	0	0
+input/resources/questionnaire/Questionnaire-well-being-signs.json	10470	11	0	0	0	0	0	0	2	24	0	0	0	0	0	0	0	0	0	0	85	55	0	0	0	1	2	0	0
