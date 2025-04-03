@@ -1,1 +1,2 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
+http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes,0.1.0,draft,,WellBeingAnswerCodes,Well-Being Answer Codes,"Well-being answer codes not found in LOINC",

@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "VCO"] ; # 
   fhir:title [ fhir:v "Veteran-Centered Outcomes (VCO) Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-01T21:17:03+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-03T13:53:40+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "U.S. Department of Veterans Affairs"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "U.S. Department of Veterans Affairs" ] ;
@@ -914,6 +914,78 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes> ;
+         fhir:reference [ fhir:v "CodeSystem/well-being-answer-codes" ]
+       ] ;
+       fhir:name [ fhir:v "Well-Being Answer Codes" ] ;
+       fhir:description [ fhir:v "Well-being answer codes not found in LOINC" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Questionnaire"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://va.gov/fhir/vco/Questionnaire/well-being-brief> ;
+         fhir:reference [ fhir:v "Questionnaire/well-being-brief" ]
+       ] ;
+       fhir:name [ fhir:v "Well-Being Brief" ] ;
+       fhir:description [ fhir:v "Well-Being Brief (WBB) is..." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://va.gov/fhir/vco/ValueSet/well-being-frequency> ;
+         fhir:reference [ fhir:v "ValueSet/well-being-frequency" ]
+       ] ;
+       fhir:name [ fhir:v "Well-Being Frequency Answers" ] ;
+       fhir:description [ fhir:v "Answers for frequency related questions in well-being questionnaires." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://va.gov/fhir/vco/ValueSet/well-being-satisfaction> ;
+         fhir:reference [ fhir:v "ValueSet/well-being-satisfaction" ]
+       ] ;
+       fhir:name [ fhir:v "Well-Being Satisfaction Answers" ] ;
+       fhir:description [ fhir:v "Answers for satisfaction related questions in well-being questionnaires." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "Questionnaire"
          ]
        ] ) ;
@@ -955,6 +1027,20 @@
            fhir:v "index.html"^^xsd:anyURI
          ] ;
          fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "license.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "license.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "License" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

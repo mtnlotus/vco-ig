@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="well-being-frequency"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet well-being-frequency</b></p><a name="well-being-frequency"> </a><a name="hcwell-being-frequency"> </a><a name="well-being-frequency-en-US"> </a><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/LA6270-8/">LA6270-8</a></td><td>Never</td></tr><tr><td><a href="https://loinc.org/LA10066-1/">LA10066-1</a></td><td>Rarely</td></tr><tr><td><a href="https://loinc.org/LA6483-7/">LA6483-7</a></td><td>Occasionally</td></tr><tr><td><a href="https://loinc.org/LA10082-8/">LA10082-8</a></td><td>Sometimes</td></tr><tr><td><a href="https://loinc.org/LA10044-8/">LA10044-8</a></td><td>Often</td></tr><tr><td><a href="https://loinc.org/LA13865-3/">LA13865-3</a></td><td>Almost always</td></tr><tr><td><a href="https://loinc.org/LA9933-8/">LA9933-8</a></td><td>Always</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://va.gov/fhir/vco/ValueSet/well-being-frequency"/>
+  <version value="0.1.0"/>
+  <name value="WellBeingFrequency"/>
+  <title value="Well-Being Frequency Answers"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-04-03T13:53:40+00:00"/>
+  <publisher value="U.S. Department of Veterans Affairs"/>
+  <contact>
+    <name value="U.S. Department of Veterans Affairs"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://va.gov"/>
+    </telecom>
+  </contact>
+  <description value="Answers for frequency related questions in well-being questionnaires."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="LA6270-8"/>
+        <display value="Never"/>
+      </concept>
+      <concept>
+        <code value="LA10066-1"/>
+        <display value="Rarely"/>
+      </concept>
+      <concept>
+        <code value="LA6483-7"/>
+        <display value="Occasionally"/>
+      </concept>
+      <concept>
+        <code value="LA10082-8"/>
+        <display value="Sometimes"/>
+      </concept>
+      <concept>
+        <code value="LA10044-8"/>
+        <display value="Often"/>
+      </concept>
+      <concept>
+        <code value="LA13865-3"/>
+        <display value="Almost always"/>
+      </concept>
+      <concept>
+        <code value="LA9933-8"/>
+        <display value="Always"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

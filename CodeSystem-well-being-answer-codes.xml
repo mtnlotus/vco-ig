@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="well-being-answer-codes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem well-being-answer-codes</b></p><a name="well-being-answer-codes"> </a><a name="hcwell-being-answer-codes"> </a><a name="well-being-answer-codes-en-US"> </a><p>This case-sensitive code system <code>http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">slightly-dissatisfied<a name="well-being-answer-codes-slightly-dissatisfied"> </a></td><td>Slightly dissatisfied</td><td>Slightly dissatisfied</td></tr><tr><td style="white-space:nowrap">slightly-satisfied<a name="well-being-answer-codes-slightly-satisfied"> </a></td><td>Slightly satisfied</td><td>Slightly satisfied</td></tr></table></div>
+  </text>
+  <url value="http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes"/>
+  <version value="0.1.0"/>
+  <name value="WellBeingAnswerCodes"/>
+  <title value="Well-Being Answer Codes"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-04-03T13:53:40+00:00"/>
+  <publisher value="U.S. Department of Veterans Affairs"/>
+  <contact>
+    <name value="U.S. Department of Veterans Affairs"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://va.gov"/>
+    </telecom>
+  </contact>
+  <description value="Well-being answer codes not found in LOINC"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="slightly-dissatisfied"/>
+    <display value="Slightly dissatisfied"/>
+    <definition value="Slightly dissatisfied"/>
+  </concept>
+  <concept>
+    <code value="slightly-satisfied"/>
+    <display value="Slightly satisfied"/>
+    <definition value="Slightly satisfied"/>
+  </concept>
+</CodeSystem>

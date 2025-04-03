@@ -1,1 +1,3 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://va.gov/fhir/vco/ValueSet/well-being-frequency,0.1.0,draft,,WellBeingFrequency,Well-Being Frequency Answers,"Answers for frequency related questions in well-being questionnaires.",,"LOINC"
+http://va.gov/fhir/vco/ValueSet/well-being-satisfaction,0.1.0,draft,,WellBeingSatisfaction,Well-Being Satisfaction Answers,"Answers for satisfaction related questions in well-being questionnaires.",,"Internal,LOINC"

@@ -1,17 +1,10 @@
 [
   {
-    "id" : "well-being-signs",
-    "type" : "Questionnaire",
-    "url" : "http://va.gov/fhir/us/pco/Questionnaire/well-being-signs",
+    "id" : "well-being-answer-codes",
+    "type" : "CodeSystem",
+    "url" : "http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes",
     "version" : "0.1.0",
-    "name" : "WellBeingSigns"
-  },
-  {
-    "id" : "health-inventory",
-    "type" : "Questionnaire",
-    "url" : "http://va.gov/fhir/us/vco/Questionnaire/health-inventory",
-    "version" : "0.1.0",
-    "name" : "PersonalHealthInventory"
+    "name" : "WellBeingAnswerCodes"
   },
   {
     "id" : "va.fhir.vco",
@@ -19,5 +12,40 @@
     "url" : "http://va.gov/fhir/vco/ImplementationGuide/va.fhir.vco",
     "version" : "0.1.0",
     "name" : "VCO"
+  },
+  {
+    "id" : "health-inventory",
+    "type" : "Questionnaire",
+    "url" : "http://va.gov/fhir/vco/Questionnaire/health-inventory",
+    "version" : "0.1.0",
+    "name" : "PersonalHealthInventory"
+  },
+  {
+    "id" : "well-being-brief",
+    "type" : "Questionnaire",
+    "url" : "http://va.gov/fhir/vco/Questionnaire/well-being-brief",
+    "version" : "0.1.0",
+    "name" : "WellBeingBrief"
+  },
+  {
+    "id" : "well-being-signs",
+    "type" : "Questionnaire",
+    "url" : "http://va.gov/fhir/vco/Questionnaire/well-being-signs",
+    "version" : "0.1.0",
+    "name" : "WellBeingSigns"
+  },
+  {
+    "id" : "well-being-frequency",
+    "type" : "ValueSet",
+    "url" : "http://va.gov/fhir/vco/ValueSet/well-being-frequency",
+    "version" : "0.1.0",
+    "name" : "WellBeingFrequency"
+  },
+  {
+    "id" : "well-being-satisfaction",
+    "type" : "ValueSet",
+    "url" : "http://va.gov/fhir/vco/ValueSet/well-being-satisfaction",
+    "version" : "0.1.0",
+    "name" : "WellBeingSatisfaction"
   }
 ]

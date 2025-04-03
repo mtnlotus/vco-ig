@@ -10,7 +10,7 @@
   "name" : "VCO",
   "title" : "Veteran-Centered Outcomes (VCO) Implementation Guide",
   "status" : "draft",
-  "date" : "2025-04-01T21:17:03+00:00",
+  "date" : "2025-04-03T13:53:40+00:00",
   "publisher" : "U.S. Department of Veterans Affairs",
   "contact" : [{
     "name" : "U.S. Department of Veterans Affairs",
@@ -666,6 +666,54 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/well-being-answer-codes"
+      },
+      "name" : "Well-Being Answer Codes",
+      "description" : "Well-being answer codes not found in LOINC",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Questionnaire"
+      }],
+      "reference" : {
+        "reference" : "Questionnaire/well-being-brief"
+      },
+      "name" : "Well-Being Brief",
+      "description" : "Well-Being Brief (WBB) is...",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/well-being-frequency"
+      },
+      "name" : "Well-Being Frequency Answers",
+      "description" : "Answers for frequency related questions in well-being questionnaires.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/well-being-satisfaction"
+      },
+      "name" : "Well-Being Satisfaction Answers",
+      "description" : "Answers for satisfaction related questions in well-being questionnaires.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Questionnaire"
       }],
       "reference" : {
@@ -690,6 +738,15 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "license.html"
+        }],
+        "nameUrl" : "license.html",
+        "title" : "License",
         "generation" : "markdown"
       }]
     },

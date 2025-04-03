@@ -11,7 +11,7 @@
   <name value="VCO"/>
   <title value="Veteran-Centered Outcomes (VCO) Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-04-01T21:17:03+00:00"/>
+  <date value="2025-04-03T13:53:40+00:00"/>
   <publisher value="U.S. Department of Veterans Affairs"/>
   <contact>
     <name value="U.S. Department of Veterans Affairs"/>
@@ -506,6 +506,50 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/well-being-answer-codes"/>
+      </reference>
+      <name value="Well-Being Answer Codes"/>
+      <description value="Well-being answer codes not found in LOINC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/well-being-brief"/>
+      </reference>
+      <name value="Well-Being Brief"/>
+      <description value="Well-Being Brief (WBB) is..."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/well-being-frequency"/>
+      </reference>
+      <name value="Well-Being Frequency Answers"/>
+      <description value="Answers for frequency related questions in well-being questionnaires."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/well-being-satisfaction"/>
+      </reference>
+      <name value="Well-Being Satisfaction Answers"/>
+      <description value="Answers for satisfaction related questions in well-being questionnaires."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Questionnaire"/>
       </extension>
       <reference>
@@ -528,6 +572,14 @@
         </extension>
         <nameUrl value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="license.html"/>
+        </extension>
+        <nameUrl value="license.html"/>
+        <title value="License"/>
         <generation value="markdown"/>
       </page>
     </page>

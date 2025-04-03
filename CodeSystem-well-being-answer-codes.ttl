@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "well-being-answer-codes"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem well-being-answer-codes</b></p><a name=\"well-being-answer-codes\"> </a><a name=\"hcwell-being-answer-codes\"> </a><a name=\"well-being-answer-codes-en-US\"> </a><p>This case-sensitive code system <code>http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">slightly-dissatisfied<a name=\"well-being-answer-codes-slightly-dissatisfied\"> </a></td><td>Slightly dissatisfied</td><td>Slightly dissatisfied</td></tr><tr><td style=\"white-space:nowrap\">slightly-satisfied<a name=\"well-being-answer-codes-slightly-satisfied\"> </a></td><td>Slightly satisfied</td><td>Slightly satisfied</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "WellBeingAnswerCodes"] ; # 
+  fhir:title [ fhir:v "Well-Being Answer Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2025-04-03T13:53:40+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "U.S. Department of Veterans Affairs"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "U.S. Department of Veterans Affairs" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://va.gov" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Well-being answer codes not found in LOINC"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "US" ] ;
+       fhir:display [ fhir:v "United States of America" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "2"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "slightly-dissatisfied" ] ;
+     fhir:display [ fhir:v "Slightly dissatisfied" ] ;
+     fhir:definition [ fhir:v "Slightly dissatisfied" ]
+  ] [
+     fhir:code [ fhir:v "slightly-satisfied" ] ;
+     fhir:display [ fhir:v "Slightly satisfied" ] ;
+     fhir:definition [ fhir:v "Slightly satisfied" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

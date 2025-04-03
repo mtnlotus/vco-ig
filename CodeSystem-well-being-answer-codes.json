@@ -1,0 +1,44 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "well-being-answer-codes",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem well-being-answer-codes</b></p><a name=\"well-being-answer-codes\"> </a><a name=\"hcwell-being-answer-codes\"> </a><a name=\"well-being-answer-codes-en-US\"> </a><p>This case-sensitive code system <code>http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">slightly-dissatisfied<a name=\"well-being-answer-codes-slightly-dissatisfied\"> </a></td><td>Slightly dissatisfied</td><td>Slightly dissatisfied</td></tr><tr><td style=\"white-space:nowrap\">slightly-satisfied<a name=\"well-being-answer-codes-slightly-satisfied\"> </a></td><td>Slightly satisfied</td><td>Slightly satisfied</td></tr></table></div>"
+  },
+  "url" : "http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes",
+  "version" : "0.1.0",
+  "name" : "WellBeingAnswerCodes",
+  "title" : "Well-Being Answer Codes",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-04-03T13:53:40+00:00",
+  "publisher" : "U.S. Department of Veterans Affairs",
+  "contact" : [{
+    "name" : "U.S. Department of Veterans Affairs",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://va.gov"
+    }]
+  }],
+  "description" : "Well-being answer codes not found in LOINC",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US",
+      "display" : "United States of America"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "slightly-dissatisfied",
+    "display" : "Slightly dissatisfied",
+    "definition" : "Slightly dissatisfied"
+  },
+  {
+    "code" : "slightly-satisfied",
+    "display" : "Slightly satisfied",
+    "definition" : "Slightly satisfied"
+  }]
+}
