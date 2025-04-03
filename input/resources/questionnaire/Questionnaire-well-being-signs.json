@@ -6,7 +6,7 @@
       "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
     ]
   },
-  "url": "http://va.gov/fhir/us/pco/Questionnaire/well-being-signs",
+  "url": "http://va.gov/fhir/vco/Questionnaire/well-being-signs",
   "version": "0.1.0",
   "name": "WellBeingSigns",
   "title": "Well-Being Signs",
@@ -56,7 +56,7 @@
   "copyright": "Used by permission of U.S. Department of Veterans Affairs, all rights reserved Creative Commons License",
   "code": [
     {
-      "system": "http://va.gov/fhir/us/vco/CodeSystem/well-being-signs",
+      "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
       "code": "well-being-signs",
       "display": "Well-Being Signs"
     }

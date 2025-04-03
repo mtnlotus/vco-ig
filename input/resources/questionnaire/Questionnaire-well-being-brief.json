@@ -1,0 +1,338 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "well-being-brief",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+    ]
+  },
+  "url": "http://va.gov/fhir/vco/Questionnaire/well-being-brief",
+  "version": "0.1.0",
+  "name": "WellBeingBrief",
+  "title": "Well-Being Brief",
+  "description": "Well-Being Brief (WBB) is...",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-03-26",
+  "publisher": "U.S. Department of Veterans Affairs",
+  "contact": [
+    {
+      "name": "U.S. Department of Veterans Affairs",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.va.gov/wholehealth"
+        }
+      ]
+    }
+  ],
+  "useContext": [
+    {
+      "code": {
+        "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+        "code": "focus"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/pco/CodeSystem/pco-concepts-temporary",
+            "code": "well-being",
+            "display": "Well-Being"
+          }
+        ]
+      }
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "copyright": "Used by permission of U.S. Department of Veterans Affairs, all rights reserved Creative Commons License",
+  "code": [
+    {
+      "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+      "code": "well-being-brief",
+      "display": "Well-Being Brief"
+    }
+  ],
+  "item": [
+    {
+      "linkId": "/well-being-brief",
+      "text": "Well-Being Brief",
+      "type": "group",
+      "required": false,
+      "item": [
+        {
+          "linkId": "/instructions",
+          "type": "display",
+          "text": "For these questions, please consider the most important things that you do, or wish to do, in your daily life. This might include having a job, managing your health and finances, spending time with family and friends, or participating in leisure - time activities. If you are not sure which response to choose, please make your best guess."
+        },
+        {
+          "linkId": "/sdoh",
+          "code": [
+            {
+              "system": "http://va.gov/fhir/vco/CodeSystem/well-being/sdoh",
+              "code": "sdoh",
+              "display": "Legal and housing"
+            }
+          ],
+          "text": "Legal & Housing",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/sdoh/display",
+              "type": "display",
+              "text": "Which of the following is true for you and/or your immediate family over the PAST THREE MONTHS?"
+            },
+            {
+              "linkId": "/sdoh/food",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "code": "tbd",
+                  "display": "TBD"
+                }
+              ],
+              "text": "I always have enough food to eat.",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "linkId": "/sdoh/housing",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "code": "tbd",
+                  "display": "TBD"
+                }
+              ],
+              "text": "I have access to stable housing that meets my needs.",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "linkId": "/sdoh/safety",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "code": "tbd",
+                  "display": "TBD"
+                }
+              ],
+              "text": "I feel safe with the people in my home.",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "linkId": "/sdoh/expenses",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "code": "tbd",
+                  "display": "TBD"
+                }
+              ],
+              "text": "I can afford other basic expenses like healthcare, utilities, and clothing.",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "linkId": "/sdoh/transportation",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "code": "tbd",
+                  "display": "TBD"
+                }
+              ],
+              "text": "I have access to reliable transportation.",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "linkId": "/sdoh/healthcare",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "code": "tbd",
+                  "display": "TBD"
+                }
+              ],
+              "text": "I have access to adequate health care.",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "linkId": "/sdoh/legal",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "code": "tbd",
+                  "display": "TBD"
+                }
+              ],
+              "text": "I could benefit from legal assistance for a legal problem I am facing.",
+              "type": "boolean",
+              "required": false
+            }
+          ]
+        },
+        {
+          "linkId": "/financial",
+          "code": [
+            {
+              "system": "http://va.gov/fhir/vco/CodeSystem/well-being/financial",
+              "code": "financial",
+              "display": "Financial"
+            }
+          ],
+          "text": "Money & Financial Situation",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/financial/display",
+              "type": "display",
+              "text": "Please answer the following questions with regard to the PAST THREE MONTHS."
+            },
+            {
+              "linkId": "/financial/manage-money",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "code": "manage-mone",
+                  "display": "Manage money"
+                }
+              ],
+              "text": "How often have you managed your money well, including for example, whether you are able to consistently: pay your bills on time, follow a budget, put extra money aside for the future.",
+              "type": "choice",
+              "required": false,
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA6270-8",
+                    "display": "Never"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA10066-1",
+                    "display": "Rarely"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA6483-7",
+                    "display": "Occasionally"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA10082-8",
+                    "display": "Sometimes"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA10044-8",
+                    "display": "Often"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA13865-3",
+                    "display": "Almost always"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA9933-8",
+                    "display": "Always"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "/financial/financial-situation",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "code": "financial-situation",
+                  "display": "Financial situation"
+                }
+              ],
+              "text": "How satisfied are you with your financial situation overall, including for example: your ability to pay for necessities, your ability to afford extras, the amount of savings and debt you have accumulated",
+              "type": "choice",
+              "required": false,
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA14638-3",
+                    "display": "Very dissatisfied"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA29849-9",
+                    "display": "Somewhat dissatisfied"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes",
+                    "code": "slightly-dissatisfied",
+                    "display": "Slightly dissatisfied"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA31733-1",
+                    "display": "Neither satisfied nor dissatisfied"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes",
+                    "code": "slightly-satisfied",
+                    "display": "Slightly satisfied"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA27752-7",
+                    "display": "Somewhat satisfied"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://loinc.org",
+                    "code": "LA14642-5",
+                    "display": "Very satisfied"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

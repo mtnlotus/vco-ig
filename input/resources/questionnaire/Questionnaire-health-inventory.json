@@ -6,7 +6,7 @@
       "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
     ]
   },
-  "url": "http://va.gov/fhir/us/vco/Questionnaire/health-inventory",
+  "url": "http://va.gov/fhir/vco/Questionnaire/health-inventory",
   "version": "0.5.0",
   "name": "PersonalHealthInventory",
   "title": "Personal Health Inventory",
