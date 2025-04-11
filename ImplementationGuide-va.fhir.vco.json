@@ -10,7 +10,7 @@
   "name" : "VCO",
   "title" : "Veteran-Centered Outcomes (VCO) Implementation Guide",
   "status" : "draft",
-  "date" : "2025-04-11T16:20:36+00:00",
+  "date" : "2025-04-11T19:45:36+00:00",
   "publisher" : "U.S. Department of Veterans Affairs",
   "contact" : [{
     "name" : "U.S. Department of Veterans Affairs",
@@ -672,7 +672,7 @@
         "reference" : "Questionnaire/well-being-brief"
       },
       "name" : "Well-Being Brief",
-      "description" : "Well-Being Brief (WBB) is an evaluation instrument containing scales designed assess multiple dimensions of well-being including personal circumstances, work and school/training, caregiving activities, involvement in health-related behaviors, and more.",
+      "description" : "Well-Being Brief (WBB) is a questionnaire containing scales designed to assess multiple dimensions of well-being including personal circumstances, work and school/training, caregiving activities, involvement in health-related behaviors, and more.",
       "exampleBoolean" : false
     },
     {

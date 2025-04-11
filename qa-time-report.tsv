@@ -1,10 +1,10 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	responsesForQuestionnaire	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-va.fhir.vco.json	5049	-	0	0	0	0	0	0	4	271	0	0	0	0	0	0	0	0	0	0	155	237	0	0	0	0	4	0	0
-fsh-generated/resources/CodeSystem-employment-codes.json	1400	61	0	0	1	0	1	0	0	56	0	0	0	0	0	0	0	0	0	0	125	16377	0	0	0	0	0	0	0
-fsh-generated/resources/CodeSystem-school-codes.json	1274	71	0	0	0	0	0	0	0	51	0	0	0	0	0	0	0	0	0	0	118	364	0	0	0	0	1	0	0
-fsh-generated/resources/CodeSystem-well-being-answer-codes.json	670	41	0	0	0	0	0	0	0	51	0	0	0	0	0	0	0	0	0	0	119	290	0	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-well-being-frequency.json	1477	41	0	0	0	0	0	0	0	256	0	0	0	0	0	0	0	0	0	0	115	584	0	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-well-being-satisfaction.json	1729	79	0	0	0	0	0	0	1	198	0	0	0	0	0	0	0	0	0	0	119	412	0	0	0	0	1	0	0
-input/resources/questionnaire/Questionnaire-health-inventory.json	26524	82	0	0	0	0	0	0	4	127	0	0	0	0	0	0	0	1	0	0	244	74	0	0	0	0	6	0	1
-input/resources/questionnaire/Questionnaire-well-being-brief.json	22831	65	0	0	1	0	0	0	2	143	0	0	0	0	0	0	0	0	0	0	200	760	0	0	0	0	6	0	0
-input/resources/questionnaire/Questionnaire-well-being-signs.json	10458	91	0	0	0	0	0	0	1	97	0	0	0	0	0	0	0	0	0	0	139	33	0	0	0	0	2	0	0
+/fsh-generated/resources/ImplementationGuide-va.fhir.vco.json	5043	-	0	0	0	0	0	0	4	603	0	0	0	0	0	0	0	1	0	0	142	162	0	0	0	0	4	0	1
+fsh-generated/resources/CodeSystem-employment-codes.json	1059	49	0	0	0	0	0	0	0	65	0	0	1	0	0	0	0	0	0	0	105	15642	0	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-school-codes.json	1195	64	0	0	0	0	0	0	1	78	0	0	0	0	0	0	0	0	0	0	113	519	0	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-well-being-answer-codes.json	583	62	0	0	0	0	0	0	0	76	0	0	0	0	0	0	0	0	0	0	102	283	0	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-well-being-frequency.json	1477	63	0	0	1	0	0	0	0	376	0	0	0	0	0	0	0	0	0	0	101	821	0	0	1	0	1	0	0
+fsh-generated/resources/ValueSet-well-being-satisfaction.json	1729	56	0	0	0	0	0	0	0	283	0	0	0	0	0	0	0	0	0	0	107	547	0	0	0	0	1	0	0
+input/resources/questionnaire/Questionnaire-health-inventory.json	26524	49	0	0	0	0	0	0	5	107	0	0	0	0	0	0	0	0	0	0	219	72	0	0	0	0	7	0	0
+input/resources/questionnaire/Questionnaire-well-being-brief.json	24956	51	0	0	0	0	0	0	8	136	0	0	0	0	0	0	0	1	0	0	189	692	0	0	0	0	6	0	0
+input/resources/questionnaire/Questionnaire-well-being-signs.json	10458	49	0	0	0	0	0	0	1	62	0	0	0	0	0	0	0	0	0	0	124	29	0	0	0	0	2	0	0

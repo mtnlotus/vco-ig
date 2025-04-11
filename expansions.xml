@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="8a3eb9d8-94a2-4ecf-94a7-7cb15a281225"/>
+  <id value="212fcdcb-eb3a-49aa-9133-a19679aa9a79"/>
   <meta>
-    <lastUpdated value="2025-04-11T16:21:52.254+00:00"/>
+    <lastUpdated value="2025-04-11T19:46:42.636+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -95,7 +95,7 @@
         <title value="Well-Being Frequency Answers"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-04-11T16:20:36+00:00"/>
+        <date value="2025-04-11T19:45:36+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -104,8 +104,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b21ed4f2-3663-4658-b3d7-5c6f166899d1"/>
-          <timestamp value="2025-04-11T16:22:40+00:00"/>
+          <identifier value="urn:uuid:8c540434-0bff-4074-af0c-cc99e441bb21"/>
+          <timestamp value="2025-04-11T19:47:32+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -206,9 +206,6 @@
                 <td>
                   <b>Display (en-US)</b>
                 </td>
-                <td>
-                  <b>Definition</b>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -217,9 +214,6 @@
                 </td>
                 <td>http://loinc.org</td>
                 <td>Very dissatisfied</td>
-                <td>
-                  <div/>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -228,9 +222,6 @@
                 </td>
                 <td>http://loinc.org</td>
                 <td>Somewhat dissatisfied</td>
-                <td>
-                  <div/>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -239,9 +230,6 @@
                 </td>
                 <td>http://loinc.org</td>
                 <td>Neither satisfied nor dissatisfied</td>
-                <td>
-                  <div/>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -250,9 +238,6 @@
                 </td>
                 <td>http://loinc.org</td>
                 <td>Somewhat satisfied</td>
-                <td>
-                  <div/>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -261,9 +246,6 @@
                 </td>
                 <td>http://loinc.org</td>
                 <td>Very satisfied</td>
-                <td>
-                  <div/>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -272,12 +254,6 @@
                 </td>
                 <td>http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes</td>
                 <td>Slightly dissatisfied</td>
-                <td>
-                  <div>
-                    <p>Slightly dissatisfied</p>
-
-                  </div>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -286,12 +262,6 @@
                 </td>
                 <td>http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes</td>
                 <td>Slightly satisfied</td>
-                <td>
-                  <div>
-                    <p>Slightly satisfied</p>
-
-                  </div>
-                </td>
               </tr>
             </table>
           </div>
@@ -302,7 +272,7 @@
         <title value="Well-Being Satisfaction Answers"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-04-11T16:20:36+00:00"/>
+        <date value="2025-04-11T19:45:36+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -311,8 +281,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:389b5c8e-478a-42dd-aff5-57be0bae8457"/>
-          <timestamp value="2025-04-11T16:22:41+00:00"/>
+          <identifier value="urn:uuid:3582c24b-26be-426c-8b5b-ad55852f3b9f"/>
+          <timestamp value="2025-04-11T19:47:33+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -561,9 +531,6 @@
                 <td>
                   <b>Display</b>
                 </td>
-                <td>
-                  <b>Definition</b>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -572,9 +539,6 @@
                 </td>
                 <td>http://loinc.org</td>
                 <td>Very dissatisfied</td>
-                <td>
-                  <div/>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -583,9 +547,6 @@
                 </td>
                 <td>http://loinc.org</td>
                 <td>Somewhat dissatisfied</td>
-                <td>
-                  <div/>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -594,9 +555,6 @@
                 </td>
                 <td>http://loinc.org</td>
                 <td>Neither satisfied nor dissatisfied</td>
-                <td>
-                  <div/>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -605,9 +563,6 @@
                 </td>
                 <td>http://loinc.org</td>
                 <td>Somewhat satisfied</td>
-                <td>
-                  <div/>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -616,9 +571,6 @@
                 </td>
                 <td>http://loinc.org</td>
                 <td>Very satisfied</td>
-                <td>
-                  <div/>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -627,12 +579,6 @@
                 </td>
                 <td>http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes</td>
                 <td>Slightly dissatisfied</td>
-                <td>
-                  <div>
-                    <p>Slightly dissatisfied</p>
-
-                  </div>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -641,12 +587,6 @@
                 </td>
                 <td>http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes</td>
                 <td>Slightly satisfied</td>
-                <td>
-                  <div>
-                    <p>Slightly satisfied</p>
-
-                  </div>
-                </td>
               </tr>
             </table>
           </div>

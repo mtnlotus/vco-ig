@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="employment-codes"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem employment-codes</b></p><a name="employment-codes"> </a><a name="hcemployment-codes"> </a><a name="employment-codes-en-US"> </a><p>This case-sensitive code system <code>http://va.gov/fhir/vco/CodeSystem/employment-codes</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">employment<a name="employment-codes-employment"> </a></td><td>Employment</td><td>Employment</td></tr><tr><td style="white-space:nowrap">employment-status<a name="employment-codes-employment-status"> </a></td><td>Employment Status</td><td>Employment Status</td></tr><tr><td style="white-space:nowrap">working-for-pay<a name="employment-codes-working-for-pay"> </a></td><td>Working for pay</td><td>Working for pay</td></tr><tr><td style="white-space:nowrap">not-working-for-pay-looking<a name="employment-codes-not-working-for-pay-looking"> </a></td><td>Not working for pay but actively looking for paid work</td><td>Not working for pay but actively looking for paid work</td></tr><tr><td style="white-space:nowrap">not-working-for-pay-not-looking<a name="employment-codes-not-working-for-pay-not-looking"> </a></td><td>Not working for pay or looking for paid work</td><td>Not working for pay or looking for paid work</td></tr><tr><td style="white-space:nowrap">work-performance<a name="employment-codes-work-performance"> </a></td><td>Work performance</td><td>Work performance</td></tr><tr><td style="white-space:nowrap">work-satisfaction<a name="employment-codes-work-satisfaction"> </a></td><td>Work satisfaction</td><td>Work satisfaction</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem employment-codes</b></p><a name="employment-codes"> </a><a name="hcemployment-codes"> </a><a name="employment-codes-en-US"> </a><p>This case-sensitive code system <code>http://va.gov/fhir/vco/CodeSystem/employment-codes</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">employment<a name="employment-codes-employment"> </a></td><td>Employment</td></tr><tr><td style="white-space:nowrap">employment-status<a name="employment-codes-employment-status"> </a></td><td>Employment Status</td></tr><tr><td style="white-space:nowrap">working-for-pay<a name="employment-codes-working-for-pay"> </a></td><td>Working for pay</td></tr><tr><td style="white-space:nowrap">not-working-for-pay-looking<a name="employment-codes-not-working-for-pay-looking"> </a></td><td>Not working for pay but actively looking for paid work</td></tr><tr><td style="white-space:nowrap">not-working-for-pay-not-looking<a name="employment-codes-not-working-for-pay-not-looking"> </a></td><td>Not working for pay or looking for paid work</td></tr><tr><td style="white-space:nowrap">work-performance<a name="employment-codes-work-performance"> </a></td><td>Work performance</td></tr><tr><td style="white-space:nowrap">work-satisfaction<a name="employment-codes-work-satisfaction"> </a></td><td>Work satisfaction</td></tr></table></div>
   </text>
   <url value="http://va.gov/fhir/vco/CodeSystem/employment-codes"/>
   <version value="0.1.0"/>
@@ -11,7 +11,7 @@
   <title value="Employment Codes"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2025-04-11T16:20:36+00:00"/>
+  <date value="2025-04-11T19:45:36+00:00"/>
   <publisher value="U.S. Department of Veterans Affairs"/>
   <contact>
     <name value="U.S. Department of Veterans Affairs"/>
@@ -34,36 +34,29 @@
   <concept>
     <code value="employment"/>
     <display value="Employment"/>
-    <definition value="Employment"/>
   </concept>
   <concept>
     <code value="employment-status"/>
     <display value="Employment Status"/>
-    <definition value="Employment Status"/>
   </concept>
   <concept>
     <code value="working-for-pay"/>
     <display value="Working for pay"/>
-    <definition value="Working for pay"/>
   </concept>
   <concept>
     <code value="not-working-for-pay-looking"/>
     <display value="Not working for pay but actively looking for paid work"/>
-    <definition value="Not working for pay but actively looking for paid work"/>
   </concept>
   <concept>
     <code value="not-working-for-pay-not-looking"/>
     <display value="Not working for pay or looking for paid work"/>
-    <definition value="Not working for pay or looking for paid work"/>
   </concept>
   <concept>
     <code value="work-performance"/>
     <display value="Work performance"/>
-    <definition value="Work performance"/>
   </concept>
   <concept>
     <code value="work-satisfaction"/>
     <display value="Work satisfaction"/>
-    <definition value="Work satisfaction"/>
   </concept>
 </CodeSystem>

@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="well-being-answer-codes"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem well-being-answer-codes</b></p><a name="well-being-answer-codes"> </a><a name="hcwell-being-answer-codes"> </a><a name="well-being-answer-codes-en-US"> </a><p>This case-sensitive code system <code>http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">slightly-dissatisfied<a name="well-being-answer-codes-slightly-dissatisfied"> </a></td><td>Slightly dissatisfied</td><td>Slightly dissatisfied</td></tr><tr><td style="white-space:nowrap">slightly-satisfied<a name="well-being-answer-codes-slightly-satisfied"> </a></td><td>Slightly satisfied</td><td>Slightly satisfied</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem well-being-answer-codes</b></p><a name="well-being-answer-codes"> </a><a name="hcwell-being-answer-codes"> </a><a name="well-being-answer-codes-en-US"> </a><p>This case-sensitive code system <code>http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">slightly-dissatisfied<a name="well-being-answer-codes-slightly-dissatisfied"> </a></td><td>Slightly dissatisfied</td></tr><tr><td style="white-space:nowrap">slightly-satisfied<a name="well-being-answer-codes-slightly-satisfied"> </a></td><td>Slightly satisfied</td></tr></table></div>
   </text>
   <url value="http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes"/>
   <version value="0.1.0"/>
@@ -11,7 +11,7 @@
   <title value="Well-Being Answer Codes"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2025-04-11T16:20:36+00:00"/>
+  <date value="2025-04-11T19:45:36+00:00"/>
   <publisher value="U.S. Department of Veterans Affairs"/>
   <contact>
     <name value="U.S. Department of Veterans Affairs"/>
@@ -34,11 +34,9 @@
   <concept>
     <code value="slightly-dissatisfied"/>
     <display value="Slightly dissatisfied"/>
-    <definition value="Slightly dissatisfied"/>
   </concept>
   <concept>
     <code value="slightly-satisfied"/>
     <display value="Slightly satisfied"/>
-    <definition value="Slightly satisfied"/>
   </concept>
 </CodeSystem>

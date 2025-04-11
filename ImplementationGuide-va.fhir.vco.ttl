@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "VCO"] ; # 
   fhir:title [ fhir:v "Veteran-Centered Outcomes (VCO) Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-11T16:20:36+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-11T19:45:36+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "U.S. Department of Veterans Affairs"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "U.S. Department of Veterans Affairs" ] ;
@@ -922,7 +922,7 @@
          fhir:reference [ fhir:v "Questionnaire/well-being-brief" ]
        ] ;
        fhir:name [ fhir:v "Well-Being Brief" ] ;
-       fhir:description [ fhir:v "Well-Being Brief (WBB) is an evaluation instrument containing scales designed assess multiple dimensions of well-being including personal circumstances, work and school/training, caregiving activities, involvement in health-related behaviors, and more." ] ;
+       fhir:description [ fhir:v "Well-Being Brief (WBB) is a questionnaire containing scales designed to assess multiple dimensions of well-being including personal circumstances, work and school/training, caregiving activities, involvement in health-related behaviors, and more." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
