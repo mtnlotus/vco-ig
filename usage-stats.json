@@ -24,6 +24,12 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability": [
+      "Questionnaire.contained"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel": [
+      "Questionnaire.contained"
     ]
   }
 }

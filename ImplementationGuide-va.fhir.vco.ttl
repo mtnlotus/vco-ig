@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "VCO"] ; # 
   fhir:title [ fhir:v "Veteran-Centered Outcomes (VCO) Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-03T13:53:40+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-11T16:20:36+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "U.S. Department of Veterans Affairs"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "U.S. Department of Veterans Affairs" ] ;
@@ -71,13 +71,13 @@
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
      fhir:version [ fhir:v "5.2.0" ]
   ] [
-     fhir:id [ fhir:v "hl7_fhir_us_cqfmeasures" ] ;
+     fhir:id [ fhir:v "hl7_fhir_uv_cpg" ] ;
      fhir:uri [
-       fhir:v "http://hl7.org/fhir/us/cqfmeasures/ImplementationGuide/hl7.fhir.us.cqfmeasures"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/us/cqfmeasures/ImplementationGuide/hl7.fhir.us.cqfmeasures>
+       fhir:v "http://hl7.org/fhir/uv/cpg/ImplementationGuide/hl7.fhir.uv.cpg"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/cpg/ImplementationGuide/hl7.fhir.uv.cpg>
      ] ;
-     fhir:packageId [ fhir:v "hl7.fhir.us.cqfmeasures" ] ;
-     fhir:version [ fhir:v "5.0.0" ]
+     fhir:packageId [ fhir:v "hl7.fhir.uv.cpg" ] ;
+     fhir:version [ fhir:v "2.0.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -842,36 +842,18 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "Practitioner"
+           fhir:v "CodeSystem"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://va.gov/fhir/vco/Practitioner/pcoPractitionerGonzalez> ;
-         fhir:reference [ fhir:v "Practitioner/pcoPractitionerGonzalez" ]
+         fhir:link <http://va.gov/fhir/vco/CodeSystem/employment-codes> ;
+         fhir:reference [ fhir:v "CodeSystem/employment-codes" ]
        ] ;
-       fhir:name [ fhir:v "Health & Wellness Coach" ] ;
-       fhir:description [ fhir:v "Maria Gonzalez, NBC-HWC" ] ;
+       fhir:name [ fhir:v "Employment Codes" ] ;
+       fhir:description [ fhir:v "Employment related codes not found in standard terminologies." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v true
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "Patient"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://va.gov/fhir/vco/Patient/pcoPatientJones> ;
-         fhir:reference [ fhir:v "Patient/pcoPatientJones" ]
-       ] ;
-       fhir:name [ fhir:v "Patient Dorothy Jones" ] ;
-       fhir:description [ fhir:v "Dorothy Jones" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v true
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -896,18 +878,18 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "Practitioner"
+           fhir:v "CodeSystem"
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://va.gov/fhir/vco/Practitioner/pcoPractitionerAnderson> ;
-         fhir:reference [ fhir:v "Practitioner/pcoPractitionerAnderson" ]
+         fhir:link <http://va.gov/fhir/vco/CodeSystem/school-codes> ;
+         fhir:reference [ fhir:v "CodeSystem/school-codes" ]
        ] ;
-       fhir:name [ fhir:v "Primary Care Physician" ] ;
-       fhir:description [ fhir:v "John Anderson, MD" ] ;
+       fhir:name [ fhir:v "School Codes" ] ;
+       fhir:description [ fhir:v "School or training related codes not found in standard terminologies." ] ;
        fhir:example [
          a fhir:boolean ;
-         fhir:v true
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -940,7 +922,7 @@
          fhir:reference [ fhir:v "Questionnaire/well-being-brief" ]
        ] ;
        fhir:name [ fhir:v "Well-Being Brief" ] ;
-       fhir:description [ fhir:v "Well-Being Brief (WBB) is..." ] ;
+       fhir:description [ fhir:v "Well-Being Brief (WBB) is an evaluation instrument containing scales designed assess multiple dimensions of well-being including personal circumstances, work and school/training, caregiving activities, involvement in health-related behaviors, and more." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

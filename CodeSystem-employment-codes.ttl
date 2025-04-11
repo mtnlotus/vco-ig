@@ -1,0 +1,73 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://va.gov/fhir/vco/CodeSystem/employment-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "employment-codes"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem employment-codes</b></p><a name=\"employment-codes\"> </a><a name=\"hcemployment-codes\"> </a><a name=\"employment-codes-en-US\"> </a><p>This case-sensitive code system <code>http://va.gov/fhir/vco/CodeSystem/employment-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">employment<a name=\"employment-codes-employment\"> </a></td><td>Employment</td><td>Employment</td></tr><tr><td style=\"white-space:nowrap\">employment-status<a name=\"employment-codes-employment-status\"> </a></td><td>Employment Status</td><td>Employment Status</td></tr><tr><td style=\"white-space:nowrap\">working-for-pay<a name=\"employment-codes-working-for-pay\"> </a></td><td>Working for pay</td><td>Working for pay</td></tr><tr><td style=\"white-space:nowrap\">not-working-for-pay-looking<a name=\"employment-codes-not-working-for-pay-looking\"> </a></td><td>Not working for pay but actively looking for paid work</td><td>Not working for pay but actively looking for paid work</td></tr><tr><td style=\"white-space:nowrap\">not-working-for-pay-not-looking<a name=\"employment-codes-not-working-for-pay-not-looking\"> </a></td><td>Not working for pay or looking for paid work</td><td>Not working for pay or looking for paid work</td></tr><tr><td style=\"white-space:nowrap\">work-performance<a name=\"employment-codes-work-performance\"> </a></td><td>Work performance</td><td>Work performance</td></tr><tr><td style=\"white-space:nowrap\">work-satisfaction<a name=\"employment-codes-work-satisfaction\"> </a></td><td>Work satisfaction</td><td>Work satisfaction</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://va.gov/fhir/vco/CodeSystem/employment-codes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "EmploymentCodes"] ; # 
+  fhir:title [ fhir:v "Employment Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2025-04-11T16:20:36+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "U.S. Department of Veterans Affairs"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "U.S. Department of Veterans Affairs" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://va.gov" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Employment related codes not found in standard terminologies."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "US" ] ;
+       fhir:display [ fhir:v "United States of America" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "employment" ] ;
+     fhir:display [ fhir:v "Employment" ] ;
+     fhir:definition [ fhir:v "Employment" ]
+  ] [
+     fhir:code [ fhir:v "employment-status" ] ;
+     fhir:display [ fhir:v "Employment Status" ] ;
+     fhir:definition [ fhir:v "Employment Status" ]
+  ] [
+     fhir:code [ fhir:v "working-for-pay" ] ;
+     fhir:display [ fhir:v "Working for pay" ] ;
+     fhir:definition [ fhir:v "Working for pay" ]
+  ] [
+     fhir:code [ fhir:v "not-working-for-pay-looking" ] ;
+     fhir:display [ fhir:v "Not working for pay but actively looking for paid work" ] ;
+     fhir:definition [ fhir:v "Not working for pay but actively looking for paid work" ]
+  ] [
+     fhir:code [ fhir:v "not-working-for-pay-not-looking" ] ;
+     fhir:display [ fhir:v "Not working for pay or looking for paid work" ] ;
+     fhir:definition [ fhir:v "Not working for pay or looking for paid work" ]
+  ] [
+     fhir:code [ fhir:v "work-performance" ] ;
+     fhir:display [ fhir:v "Work performance" ] ;
+     fhir:definition [ fhir:v "Work performance" ]
+  ] [
+     fhir:code [ fhir:v "work-satisfaction" ] ;
+     fhir:display [ fhir:v "Work satisfaction" ] ;
+     fhir:definition [ fhir:v "Work satisfaction" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -10,7 +10,7 @@
   "name" : "VCO",
   "title" : "Veteran-Centered Outcomes (VCO) Implementation Guide",
   "status" : "draft",
-  "date" : "2025-04-03T13:53:40+00:00",
+  "date" : "2025-04-11T16:20:36+00:00",
   "publisher" : "U.S. Department of Veterans Affairs",
   "contact" : [{
     "name" : "U.S. Department of Veterans Affairs",
@@ -55,10 +55,10 @@
     "version" : "5.2.0"
   },
   {
-    "id" : "hl7_fhir_us_cqfmeasures",
-    "uri" : "http://hl7.org/fhir/us/cqfmeasures/ImplementationGuide/hl7.fhir.us.cqfmeasures",
-    "packageId" : "hl7.fhir.us.cqfmeasures",
-    "version" : "5.0.0"
+    "id" : "hl7_fhir_uv_cpg",
+    "uri" : "http://hl7.org/fhir/uv/cpg/ImplementationGuide/hl7.fhir.uv.cpg",
+    "packageId" : "hl7.fhir.uv.cpg",
+    "version" : "2.0.0"
   }],
   "definition" : {
     "extension" : [{
@@ -618,26 +618,14 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Practitioner"
+        "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "Practitioner/pcoPractitionerGonzalez"
+        "reference" : "CodeSystem/employment-codes"
       },
-      "name" : "Health & Wellness Coach",
-      "description" : "Maria Gonzalez, NBC-HWC",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/pcoPatientJones"
-      },
-      "name" : "Patient Dorothy Jones",
-      "description" : "Dorothy Jones",
-      "exampleBoolean" : true
+      "name" : "Employment Codes",
+      "description" : "Employment related codes not found in standard terminologies.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -654,14 +642,14 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Practitioner"
+        "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "Practitioner/pcoPractitionerAnderson"
+        "reference" : "CodeSystem/school-codes"
       },
-      "name" : "Primary Care Physician",
-      "description" : "John Anderson, MD",
-      "exampleBoolean" : true
+      "name" : "School Codes",
+      "description" : "School or training related codes not found in standard terminologies.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -684,7 +672,7 @@
         "reference" : "Questionnaire/well-being-brief"
       },
       "name" : "Well-Being Brief",
-      "description" : "Well-Being Brief (WBB) is...",
+      "description" : "Well-Being Brief (WBB) is an evaluation instrument containing scales designed assess multiple dimensions of well-being including personal circumstances, work and school/training, caregiving activities, involvement in health-related behaviors, and more.",
       "exampleBoolean" : false
     },
     {

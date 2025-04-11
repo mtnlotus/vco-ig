@@ -10,8 +10,29 @@
       "systems" : ["http://loinc.org"]
     },
     {
+      "url" : "http://va.gov/fhir/vco/ValueSet/well-being-frequency",
+      "version" : null,
+      "status" : "draft",
+      "name" : "WellBeingFrequency",
+      "title" : "Well-Being Frequency Answers",
+      "description" : "Answers for frequency related questions in well-being questionnaires.",
+      "systems" : ["http://loinc.org"]
+    },
+    {
       "url" : "http://va.gov/fhir/vco/ValueSet/well-being-satisfaction",
       "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "WellBeingSatisfaction",
+      "title" : "Well-Being Satisfaction Answers",
+      "description" : "Answers for satisfaction related questions in well-being questionnaires.",
+      "systems" : [
+        "http://loinc.org",
+        "http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes"
+      ]
+    },
+    {
+      "url" : "http://va.gov/fhir/vco/ValueSet/well-being-satisfaction",
+      "version" : null,
       "status" : "draft",
       "name" : "WellBeingSatisfaction",
       "title" : "Well-Being Satisfaction Answers",

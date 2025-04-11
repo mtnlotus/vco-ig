@@ -1,13 +1,9 @@
-<!-- layouts\layout-changehistory.html -->
-<!-- get modelType -->
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title> - Veteran-Centered Outcomes (VCO) Implementation Guide v0.1.0</title>
+    <title>Employment Codes - Veteran-Centered Outcomes (VCO) Implementation Guide v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -45,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:""}
-    h3,h4,h5,h6{--heading-prefix:""}</style>
+    <style type="text/css">h2{--heading-prefix:"3.6"}
+    h3,h4,h5,h6{--heading-prefix:"3.6"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -108,7 +104,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Employment Codes</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -120,8 +116,7 @@
         <div class="row">
           <div class="inner-wrapper">
 
-
-<div style="counter-reset: section 10" class="col-12">
+<div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Veteran-Centered Outcomes (VCO) Implementation Guide - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://va.gov/fhir/vco/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
@@ -134,29 +129,29 @@
 
 <ul class="nav nav-tabs">
 
-  <li>
-    <a href="Practitioner-pcoPractitionerAnderson.html">Narrative Content</a>
+  <li class="active">
+    <a href="#">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="Practitioner-pcoPractitionerAnderson.xml.html">XML</a>
+      <a href="CodeSystem-employment-codes.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="Practitioner-pcoPractitionerAnderson.json.html">JSON</a>
+      <a href="CodeSystem-employment-codes.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="Practitioner-pcoPractitionerAnderson.ttl.html">TTL</a>
+      <a href="CodeSystem-employment-codes.ttl.html">TTL</a>
     </li>
   
 
@@ -164,15 +159,100 @@
 
 </ul>
 
-
   <a name="root"> </a>
-  <h2 id="root">: Practitioner/pcoPractitionerAnderson - Change History</h2>
-  <p>History of changes for pcoPractitionerAnderson .</p>
+  <h2 id="root">CodeSystem: Employment Codes
+(Experimental)
+  </h2>
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://va.gov/fhir/vco/CodeSystem/employment-codes<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://va.gov/fhir/vco/CodeSystem/employment-codes"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://va.gov/fhir/vco/CodeSystem/employment-codes|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2025-04-11
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">EmploymentCodes</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Employment related codes not found in standard terminologies.</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul><li>This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</li></ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem employment-codes</b></p><a name="employment-codes"> </a><a name="hcemployment-codes"> </a><a name="employment-codes-en-US"> </a><p>This case-sensitive code system <code>http://va.gov/fhir/vco/CodeSystem/employment-codes</code> defines the following codes:</p>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr>
+<tr><td style="white-space:nowrap">employment<a name="employment-codes-employment"> </a></td>
+<td>Employment</td>
+<td>Employment</td></tr>
+<tr><td style="white-space:nowrap">employment-status<a name="employment-codes-employment-status"> </a></td>
+<td>Employment Status</td>
+<td>Employment Status</td></tr>
+<tr><td style="white-space:nowrap">working-for-pay<a name="employment-codes-working-for-pay"> </a></td>
+<td>Working for pay</td>
+<td>Working for pay</td></tr>
+<tr><td style="white-space:nowrap">not-working-for-pay-looking<a name="employment-codes-not-working-for-pay-looking"> </a></td>
+<td>Not working for pay but actively looking for paid work</td>
+<td>Not working for pay but actively looking for paid work</td></tr>
+<tr><td style="white-space:nowrap">not-working-for-pay-not-looking<a name="employment-codes-not-working-for-pay-not-looking"> </a></td>
+<td>Not working for pay or looking for paid work</td>
+<td>Not working for pay or looking for paid work</td></tr>
+<tr><td style="white-space:nowrap">work-performance<a name="employment-codes-work-performance"> </a></td>
+<td>Work performance</td>
+<td>Work performance</td></tr>
+<tr><td style="white-space:nowrap">work-satisfaction<a name="employment-codes-work-satisfaction"> </a></td>
+<td>Work satisfaction</td>
+<td>Work satisfaction</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
 
   
 
 </div>
-
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
     </div>  <!-- /container -->
@@ -181,8 +261,6 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript" src="assets/js/tabs.js"> </script>
-
   <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
@@ -190,7 +268,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://va.gov">U.S. Department of Veterans Affairs</a>.  Package va.fhir.vco#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Apr 3, 2025 13:54+0000">2025-04-03</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://va.gov">U.S. Department of Veterans Affairs</a>.  Package va.fhir.vco#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 11, 2025 16:21+0000">2025-04-11</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

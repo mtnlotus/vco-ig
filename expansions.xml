@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="4701d90c-d98b-46b4-aa5a-7e5843140915"/>
+  <id value="8a3eb9d8-94a2-4ecf-94a7-7cb15a281225"/>
   <meta>
-    <lastUpdated value="2025-04-03T13:54:38.175+00:00"/>
+    <lastUpdated value="2025-04-11T16:21:52.254+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -95,7 +95,7 @@
         <title value="Well-Being Frequency Answers"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-04-03T13:53:40+00:00"/>
+        <date value="2025-04-11T16:20:36+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -104,8 +104,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0e38cb99-1f7a-4f4b-8ceb-72eaeb9e01a0"/>
-          <timestamp value="2025-04-03T13:55:10+00:00"/>
+          <identifier value="urn:uuid:b21ed4f2-3663-4658-b3d7-5c6f166899d1"/>
+          <timestamp value="2025-04-11T16:22:40+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -271,7 +271,7 @@
                   <a href="CodeSystem-well-being-answer-codes.html#well-being-answer-codes-slightly-dissatisfied">slightly-dissatisfied</a>
                 </td>
                 <td>http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes</td>
-                <td/>
+                <td>Slightly dissatisfied</td>
                 <td>
                   <div>
                     <p>Slightly dissatisfied</p>
@@ -285,7 +285,7 @@
                   <a href="CodeSystem-well-being-answer-codes.html#well-being-answer-codes-slightly-satisfied">slightly-satisfied</a>
                 </td>
                 <td>http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes</td>
-                <td/>
+                <td>Slightly satisfied</td>
                 <td>
                   <div>
                     <p>Slightly satisfied</p>
@@ -302,7 +302,7 @@
         <title value="Well-Being Satisfaction Answers"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-04-03T13:53:40+00:00"/>
+        <date value="2025-04-11T16:20:36+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -311,8 +311,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6b60fa66-1cc1-4ff3-9ff2-194fe480b9bc"/>
-          <timestamp value="2025-04-03T13:55:11+00:00"/>
+          <identifier value="urn:uuid:389b5c8e-478a-42dd-aff5-57be0bae8457"/>
+          <timestamp value="2025-04-11T16:22:41+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -379,10 +379,332 @@
           <contains>
             <system value="http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes"/>
             <code value="slightly-dissatisfied"/>
+            <display value="Slightly dissatisfied"/>
           </contains>
           <contains>
             <system value="http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes"/>
             <code value="slightly-satisfied"/>
+            <display value="Slightly satisfied"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://va.gov/fhir/vco/ValueSet/well-being-frequency"/>
+    <resource>
+      <ValueSet>
+        <id value="well-being-frequency"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet well-being-frequency</b>
+            </p>
+            <p>This value set expansion contains 7 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-well-being-frequency-http://loinc.org-LA6270-8"> </a>  
+                  <a href="https://loinc.org/LA6270-8/">LA6270-8</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Never</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-well-being-frequency-http://loinc.org-LA10066-1"> </a>  
+                  <a href="https://loinc.org/LA10066-1/">LA10066-1</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Rarely</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-well-being-frequency-http://loinc.org-LA6483-7"> </a>  
+                  <a href="https://loinc.org/LA6483-7/">LA6483-7</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Occasionally</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-well-being-frequency-http://loinc.org-LA10082-8"> </a>  
+                  <a href="https://loinc.org/LA10082-8/">LA10082-8</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Sometimes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-well-being-frequency-http://loinc.org-LA10044-8"> </a>  
+                  <a href="https://loinc.org/LA10044-8/">LA10044-8</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Often</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-well-being-frequency-http://loinc.org-LA13865-3"> </a>  
+                  <a href="https://loinc.org/LA13865-3/">LA13865-3</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Almost always</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-well-being-frequency-http://loinc.org-LA9933-8"> </a>  
+                  <a href="https://loinc.org/LA9933-8/">LA9933-8</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Always</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability">
+          <valueString value="executable"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel">
+          <valueString value="executable"/>
+        </extension>
+        <url value="http://va.gov/fhir/vco/ValueSet/well-being-frequency"/>
+        <version value="0.1.0"/>
+        <name value="WellBeingFrequency"/>
+        <title value="Well-Being Frequency Answers"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <description value="Answers for frequency related questions in well-being questionnaires."/>
+        <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"/>
+        <expansion>
+          <timestamp value="2025-04-07T07:46:48-06:00"/>
+          <parameter>
+            <name value="naive"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA6270-8"/>
+            <display value="Never"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA10066-1"/>
+            <display value="Rarely"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA6483-7"/>
+            <display value="Occasionally"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA10082-8"/>
+            <display value="Sometimes"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA10044-8"/>
+            <display value="Often"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA13865-3"/>
+            <display value="Almost always"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA9933-8"/>
+            <display value="Always"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://va.gov/fhir/vco/ValueSet/well-being-satisfaction"/>
+    <resource>
+      <ValueSet>
+        <id value="well-being-satisfaction"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet well-being-satisfaction</b>
+            </p>
+            <p>This value set expansion contains 7 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-well-being-satisfaction-http://loinc.org-LA14638-3"> </a>  
+                  <a href="https://loinc.org/LA14638-3/">LA14638-3</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Very dissatisfied</td>
+                <td>
+                  <div/>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-well-being-satisfaction-http://loinc.org-LA29849-9"> </a>  
+                  <a href="https://loinc.org/LA29849-9/">LA29849-9</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Somewhat dissatisfied</td>
+                <td>
+                  <div/>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-well-being-satisfaction-http://loinc.org-LA31733-1"> </a>  
+                  <a href="https://loinc.org/LA31733-1/">LA31733-1</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Neither satisfied nor dissatisfied</td>
+                <td>
+                  <div/>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-well-being-satisfaction-http://loinc.org-LA27752-7"> </a>  
+                  <a href="https://loinc.org/LA27752-7/">LA27752-7</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Somewhat satisfied</td>
+                <td>
+                  <div/>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-well-being-satisfaction-http://loinc.org-LA14642-5"> </a>  
+                  <a href="https://loinc.org/LA14642-5/">LA14642-5</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Very satisfied</td>
+                <td>
+                  <div/>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-well-being-satisfaction-http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes-slightly-dissatisfied"> </a>  
+                  <a href="CodeSystem-well-being-answer-codes.html#well-being-answer-codes-slightly-dissatisfied">slightly-dissatisfied</a>
+                </td>
+                <td>http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes</td>
+                <td>Slightly dissatisfied</td>
+                <td>
+                  <div>
+                    <p>Slightly dissatisfied</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-well-being-satisfaction-http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes-slightly-satisfied"> </a>  
+                  <a href="CodeSystem-well-being-answer-codes.html#well-being-answer-codes-slightly-satisfied">slightly-satisfied</a>
+                </td>
+                <td>http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes</td>
+                <td>Slightly satisfied</td>
+                <td>
+                  <div>
+                    <p>Slightly satisfied</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability">
+          <valueString value="executable"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel">
+          <valueString value="executable"/>
+        </extension>
+        <url value="http://va.gov/fhir/vco/ValueSet/well-being-satisfaction"/>
+        <version value="0.1.0"/>
+        <name value="WellBeingSatisfaction"/>
+        <title value="Well-Being Satisfaction Answers"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <description value="Answers for satisfaction related questions in well-being questionnaires."/>
+        <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"/>
+        <expansion>
+          <timestamp value="2025-04-07T07:46:48-06:00"/>
+          <parameter>
+            <name value="naive"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA14638-3"/>
+            <display value="Very dissatisfied"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA29849-9"/>
+            <display value="Somewhat dissatisfied"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA31733-1"/>
+            <display value="Neither satisfied nor dissatisfied"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA27752-7"/>
+            <display value="Somewhat satisfied"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA14642-5"/>
+            <display value="Very satisfied"/>
+          </contains>
+          <contains>
+            <system value="http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes"/>
+            <code value="slightly-dissatisfied"/>
+            <display value="Slightly dissatisfied"/>
+          </contains>
+          <contains>
+            <system value="http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes"/>
+            <code value="slightly-satisfied"/>
+            <display value="Slightly satisfied"/>
           </contains>
         </expansion>
       </ValueSet>

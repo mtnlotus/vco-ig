@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://va.gov/fhir/vco/CodeSystem/school-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "school-codes"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem school-codes</b></p><a name=\"school-codes\"> </a><a name=\"hcschool-codes\"> </a><a name=\"school-codes-en-US\"> </a><p>This case-sensitive code system <code>http://va.gov/fhir/vco/CodeSystem/school-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">school<a name=\"school-codes-school\"> </a></td><td>School or training</td><td>School or training</td></tr><tr><td style=\"white-space:nowrap\">school-status<a name=\"school-codes-school-status\"> </a></td><td>School Status</td><td>School Status</td></tr><tr><td style=\"white-space:nowrap\">in-school<a name=\"school-codes-in-school\"> </a></td><td>In school or another type of training program</td><td/></tr><tr><td style=\"white-space:nowrap\">not-in-school-interested<a name=\"school-codes-not-in-school-interested\"> </a></td><td>Not in school or completing training currently, but interested in obtaining additional education or training</td><td/></tr><tr><td style=\"white-space:nowrap\">not-in-school-not-interested<a name=\"school-codes-not-in-school-not-interested\"> </a></td><td>Not in school or completing training currently, and not interested in obtaining additional education or training</td><td/></tr><tr><td style=\"white-space:nowrap\">school-performance<a name=\"school-codes-school-performance\"> </a></td><td>School performance</td><td/></tr><tr><td style=\"white-space:nowrap\">school-satisfaction<a name=\"school-codes-school-satisfaction\"> </a></td><td>School satisfaction</td><td/></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://va.gov/fhir/vco/CodeSystem/school-codes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SchoolCodes"] ; # 
+  fhir:title [ fhir:v "School Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2025-04-11T16:20:36+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "U.S. Department of Veterans Affairs"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "U.S. Department of Veterans Affairs" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://va.gov" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "School or training related codes not found in standard terminologies."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "US" ] ;
+       fhir:display [ fhir:v "United States of America" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "school" ] ;
+     fhir:display [ fhir:v "School or training" ] ;
+     fhir:definition [ fhir:v "School or training" ]
+  ] [
+     fhir:code [ fhir:v "school-status" ] ;
+     fhir:display [ fhir:v "School Status" ] ;
+     fhir:definition [ fhir:v "School Status" ]
+  ] [
+     fhir:code [ fhir:v "in-school" ] ;
+     fhir:display [ fhir:v "In school or another type of training program" ]
+  ] [
+     fhir:code [ fhir:v "not-in-school-interested" ] ;
+     fhir:display [ fhir:v "Not in school or completing training currently, but interested in obtaining additional education or training" ]
+  ] [
+     fhir:code [ fhir:v "not-in-school-not-interested" ] ;
+     fhir:display [ fhir:v "Not in school or completing training currently, and not interested in obtaining additional education or training" ]
+  ] [
+     fhir:code [ fhir:v "school-performance" ] ;
+     fhir:display [ fhir:v "School performance" ]
+  ] [
+     fhir:code [ fhir:v "school-satisfaction" ] ;
+     fhir:display [ fhir:v "School satisfaction" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
