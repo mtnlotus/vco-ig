@@ -10,7 +10,7 @@
   "version": "0.1.0",
   "name": "WellBeingBrief",
   "title": "Well-Being Brief",
-  "description": "Well-Being Brief (WBB) is...",
+  "description": "Well-Being Brief (WBB) is an evaluation instrument containing scales designed assess multiple dimensions of well-being including personal circumstances, work and school/training, caregiving activities, involvement in health-related behaviors, and more.",
   "status": "draft",
   "experimental": true,
   "date": "2025-03-26",
@@ -59,6 +59,231 @@
       "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
       "code": "well-being-brief",
       "display": "Well-Being Brief"
+    }
+  ],
+  "contained": [
+    {
+      "resourceType": "ValueSet",
+      "id": "well-being-frequency",
+      "meta": {
+        "profile": [
+          "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset"
+        ]
+      },
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+          "valueString": "executable"
+        },
+        {
+          "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
+          "valueString": "executable"
+        }
+      ],
+      "url": "http://va.gov/fhir/vco/ValueSet/well-being-frequency",
+      "name": "WellBeingFrequency",
+      "title": "Well-Being Frequency Answers",
+      "status": "draft",
+      "experimental": false,
+      "description": "Answers for frequency related questions in well-being questionnaires.",
+      "copyright": "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
+      "compose": {
+        "include": [
+          {
+            "system": "http://loinc.org",
+            "concept": [
+              {
+                "code": "LA6270-8",
+                "display": "Never"
+              },
+              {
+                "code": "LA10066-1",
+                "display": "Rarely"
+              },
+              {
+                "code": "LA6483-7",
+                "display": "Occasionally"
+              },
+              {
+                "code": "LA10082-8",
+                "display": "Sometimes"
+              },
+              {
+                "code": "LA10044-8",
+                "display": "Often"
+              },
+              {
+                "code": "LA13865-3",
+                "display": "Almost always"
+              },
+              {
+                "code": "LA9933-8",
+                "display": "Always"
+              }
+            ]
+          }
+        ]
+      },
+      "expansion": {
+        "timestamp": "2025-04-07T07:46:48-06:00",
+        "parameter": [
+          {
+            "name": "naive",
+            "valueBoolean": true
+          }
+        ],
+        "contains": [
+          {
+            "system": "http://loinc.org",
+            "code": "LA6270-8",
+            "display": "Never"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA10066-1",
+            "display": "Rarely"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA6483-7",
+            "display": "Occasionally"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA10082-8",
+            "display": "Sometimes"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA10044-8",
+            "display": "Often"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA13865-3",
+            "display": "Almost always"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA9933-8",
+            "display": "Always"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "ValueSet",
+      "id": "well-being-satisfaction",
+      "meta": {
+        "profile": [
+          "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset"
+        ]
+      },
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+          "valueString": "executable"
+        },
+        {
+          "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
+          "valueString": "executable"
+        }
+      ],
+      "url": "http://va.gov/fhir/vco/ValueSet/well-being-satisfaction",
+      "name": "WellBeingSatisfaction",
+      "title": "Well-Being Satisfaction Answers",
+      "status": "draft",
+      "experimental": false,
+      "description": "Answers for satisfaction related questions in well-being questionnaires.",
+      "copyright": "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
+      "compose": {
+        "include": [
+          {
+            "system": "http://loinc.org",
+            "concept": [
+              {
+                "code": "LA14638-3",
+                "display": "Very dissatisfied"
+              },
+              {
+                "code": "LA29849-9",
+                "display": "Somewhat dissatisfied"
+              },
+              {
+                "code": "LA31733-1",
+                "display": "Neither satisfied nor dissatisfied"
+              },
+              {
+                "code": "LA27752-7",
+                "display": "Somewhat satisfied"
+              },
+              {
+                "code": "LA14642-5",
+                "display": "Very satisfied"
+              }
+            ]
+          },
+          {
+            "system": "http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes",
+            "concept": [
+              {
+                "code": "slightly-dissatisfied",
+                "display": "Slightly dissatisfied"
+              },
+              {
+                "code": "slightly-satisfied",
+                "display": "Slightly satisfied"
+              }
+            ]
+          }
+        ]
+      },
+      "expansion": {
+        "timestamp": "2025-04-07T07:46:48-06:00",
+        "parameter": [
+          {
+            "name": "naive",
+            "valueBoolean": true
+          }
+        ],
+        "contains": [
+          {
+            "system": "http://loinc.org",
+            "code": "LA14638-3",
+            "display": "Very dissatisfied"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA29849-9",
+            "display": "Somewhat dissatisfied"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA31733-1",
+            "display": "Neither satisfied nor dissatisfied"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA27752-7",
+            "display": "Somewhat satisfied"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA14642-5",
+            "display": "Very satisfied"
+          },
+          {
+            "system": "http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes",
+            "code": "slightly-dissatisfied",
+            "display": "Slightly dissatisfied"
+          },
+          {
+            "system": "http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes",
+            "code": "slightly-satisfied",
+            "display": "Slightly satisfied"
+          }
+        ]
+      }
     }
   ],
   "item": [
@@ -214,57 +439,7 @@
               "text": "How often have you managed your money well, including for example, whether you are able to consistently: pay your bills on time, follow a budget, put extra money aside for the future.",
               "type": "choice",
               "required": false,
-              "answerOption": [
-                {
-                  "valueCoding": {
-                    "system": "http://loinc.org",
-                    "code": "LA6270-8",
-                    "display": "Never"
-                  }
-                },
-                {
-                  "valueCoding": {
-                    "system": "http://loinc.org",
-                    "code": "LA10066-1",
-                    "display": "Rarely"
-                  }
-                },
-                {
-                  "valueCoding": {
-                    "system": "http://loinc.org",
-                    "code": "LA6483-7",
-                    "display": "Occasionally"
-                  }
-                },
-                {
-                  "valueCoding": {
-                    "system": "http://loinc.org",
-                    "code": "LA10082-8",
-                    "display": "Sometimes"
-                  }
-                },
-                {
-                  "valueCoding": {
-                    "system": "http://loinc.org",
-                    "code": "LA10044-8",
-                    "display": "Often"
-                  }
-                },
-                {
-                  "valueCoding": {
-                    "system": "http://loinc.org",
-                    "code": "LA13865-3",
-                    "display": "Almost always"
-                  }
-                },
-                {
-                  "valueCoding": {
-                    "system": "http://loinc.org",
-                    "code": "LA9933-8",
-                    "display": "Always"
-                  }
-                }
-              ]
+              "answerValueSet": "#well-being-frequency"
             },
             {
               "linkId": "/financial/financial-situation",
@@ -278,57 +453,175 @@
               "text": "How satisfied are you with your financial situation overall, including for example: your ability to pay for necessities, your ability to afford extras, the amount of savings and debt you have accumulated",
               "type": "choice",
               "required": false,
+              "answerValueSet": "#well-being-satisfaction"
+            }
+          ]
+        },
+        {
+          "linkId": "/employment",
+          "code": [
+            {
+              "system": "http://va.gov/fhir/vco/CodeSystem/employment-codes",
+              "code": "employment",
+              "display": "Employment"
+            }
+          ],
+          "text": "Employment",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/employment/status",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/employment-codes",
+                  "code": "employment-status",
+                  "display": "Employment Status"
+                }
+              ],
+              "text": "What is your current employment status?",
+              "type": "choice",
+              "repeats": false,
               "answerOption": [
                 {
                   "valueCoding": {
-                    "system": "http://loinc.org",
-                    "code": "LA14638-3",
-                    "display": "Very dissatisfied"
+                    "system": "http://va.gov/fhir/vco/CodeSystem/employment-codes",
+                    "code": "working-for-pay",
+                    "display": "Working for pay"
                   }
                 },
                 {
                   "valueCoding": {
-                    "system": "http://loinc.org",
-                    "code": "LA29849-9",
-                    "display": "Somewhat dissatisfied"
+                    "system": "http://va.gov/fhir/vco/CodeSystem/employment-codes",
+                    "code": "not-working-for-pay-looking",
+                    "display": "Not working for pay but actively looking for paid work"
                   }
                 },
                 {
                   "valueCoding": {
-                    "system": "http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes",
-                    "code": "slightly-dissatisfied",
-                    "display": "Slightly dissatisfied"
-                  }
-                },
-                {
-                  "valueCoding": {
-                    "system": "http://loinc.org",
-                    "code": "LA31733-1",
-                    "display": "Neither satisfied nor dissatisfied"
-                  }
-                },
-                {
-                  "valueCoding": {
-                    "system": "http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes",
-                    "code": "slightly-satisfied",
-                    "display": "Slightly satisfied"
-                  }
-                },
-                {
-                  "valueCoding": {
-                    "system": "http://loinc.org",
-                    "code": "LA27752-7",
-                    "display": "Somewhat satisfied"
-                  }
-                },
-                {
-                  "valueCoding": {
-                    "system": "http://loinc.org",
-                    "code": "LA14642-5",
-                    "display": "Very satisfied"
+                    "system": "http://va.gov/fhir/vco/CodeSystem/employment-codes",
+                    "code": "not-working-for-pay-not-looking",
+                    "display": "Not working for pay or looking for paid work"
                   }
                 }
               ]
+            },
+            {
+              "linkId": "/employment/display",
+              "type": "display",
+              "text": "Please answer the following questions with regard to the PAST THREE MONTHS."
+            },
+            {
+              "linkId": "/employment/work-performance",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/employment-codes",
+                  "code": "work-performance",
+                  "display": "Work performance"
+                }
+              ],
+              "text": "On average how often have you been able to do your best work, including for example, your ability to consistently: complete work on time, do your highest quality work, work well with others in your work setting.",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-frequency"
+            },
+            {
+              "linkId": "/employment/work-satisfaction",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/employment-codes",
+                  "code": "work-satisfaction",
+                  "display": "Work satisfaction"
+                }
+              ],
+              "text": "How satisfied have you been with your work experience overall, including for example: the kind of work you do and your work environment, the compensation and/or recognition you receive for your work, extent to which your work is advancing your longer-term vocational goals.",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-satisfaction"
+            }
+          ]
+        },
+        {
+          "linkId": "/school",
+          "code": [
+            {
+              "system": "http://va.gov/fhir/vco/CodeSystem/school-codes",
+              "code": "school",
+              "display": "School or training"
+            }
+          ],
+          "text": "School or Training",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/school/status",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/school-codes",
+                  "code": "school-status",
+                  "display": "School Status"
+                }
+              ],
+              "text": "Are you currently in school or completing some other type of training program?",
+              "type": "choice",
+              "repeats": false,
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://va.gov/fhir/vco/CodeSystem/school-codes",
+                    "code": "in-school",
+                    "display": "In school or another type of training program"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://va.gov/fhir/vco/CodeSystem/school-codes",
+                    "code": "not-in-school-interested",
+                    "display": "Not in school or completing training currently, but interested in obtaining additional education or training"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://va.gov/fhir/vco/CodeSystem/school-codes",
+                    "code": "not-in-school-not-interested",
+                    "display": "Not in school or completing training currently, and not interested in obtaining additional education or training"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "/school/display",
+              "type": "display",
+              "text": "Please answer the following questions with regard to the PAST THREE MONTHS."
+            },
+            {
+              "linkId": "/employment/school-performance",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/school-codes",
+                  "code": "school-performance",
+                  "display": "School performance"
+                }
+              ],
+              "text": "On average how often have you been able to do your best at school or in your training program, including for example, your ability to consistently: complete work on time, do your highest quality work, work well with others in your program",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-frequency"
+            },
+            {
+              "linkId": "/employment/school-satisfaction",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/school-codes",
+                  "code": "school-satisfaction",
+                  "display": "School satisfaction"
+                }
+              ],
+              "text": "How satisfied have you been with your school/training experience overall, including for example: the quality of the instructors and learning content, your learning environment, your ability to advance your longer-term educational/training goals",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-satisfaction"
             }
           ]
         }

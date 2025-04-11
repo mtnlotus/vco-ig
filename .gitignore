@@ -6,6 +6,7 @@ template
 output
 # bundles/*/
 input-cache
+dev-files
 
 # Don't commit this because it's so large #
 ###########################################

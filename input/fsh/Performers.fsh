@@ -1,4 +1,4 @@
-
+/*
 Instance: pcoPatientJones
 InstanceOf: USCorePatientProfile
 Title: "Patient Dorothy Jones" 
@@ -37,3 +37,5 @@ Usage: #example
 * name.suffix = "MD"
 * name.text = "John Anderson, MD"
 * gender = #male
+
+*/
