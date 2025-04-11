@@ -8,6 +8,12 @@ RuleSet: SNOMEDCopyrightNotice
 // LOINC value set
 Alias: NumericRatingScaleFrom0-10 = http://loinc.org/vs/LL2335-9
 
+/*
+
+TODO: create a ValueSet with mappings for SDOH codes from LOINC
+
+*/
+
 // Existing LOINC value sets for frequency use a 5-point scale, e.g. from PROMIS. The well-being questions use a 7-point scale.
 // Example of a PROMIS 5-point scale: https://loinc.org/61953-6
 
@@ -50,9 +56,7 @@ Description: "Well-being answer codes not found in LOINC"
 * ^experimental = true
 * ^status = #draft
 * #slightly-dissatisfied "Slightly dissatisfied"
-    "Slightly dissatisfied"
 * #slightly-satisfied "Slightly satisfied"
-    "Slightly satisfied"
 
 CodeSystem: EmploymentCodes
 Id: employment-codes
@@ -62,19 +66,12 @@ Description: "Employment related codes not found in standard terminologies."
 * ^experimental = true
 * ^status = #draft
 * #employment "Employment"
-    "Employment"
 * #employment-status "Employment Status"
-    "Employment Status"
 * #working-for-pay "Working for pay"
-    "Working for pay"
 * #not-working-for-pay-looking "Not working for pay but actively looking for paid work"
-    "Not working for pay but actively looking for paid work"
 * #not-working-for-pay-not-looking "Not working for pay or looking for paid work"
-    "Not working for pay or looking for paid work"
 * #work-performance "Work performance"
-    "Work performance"
 * #work-satisfaction "Work satisfaction"
-    "Work satisfaction"
 
 CodeSystem: SchoolCodes
 Id: school-codes
@@ -84,9 +81,7 @@ Description: "School or training related codes not found in standard terminologi
 * ^experimental = true
 * ^status = #draft
 * #school "School or training"
-    "School or training"
 * #school-status "School Status"
-    "School Status"
 * #in-school "In school or another type of training program"
 * #not-in-school-interested "Not in school or completing training currently, but interested in obtaining additional education or training"
 * #not-in-school-not-interested "Not in school or completing training currently, and not interested in obtaining additional education or training"

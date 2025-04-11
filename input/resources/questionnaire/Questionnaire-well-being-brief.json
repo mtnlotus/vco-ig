@@ -10,7 +10,7 @@
   "version": "0.1.0",
   "name": "WellBeingBrief",
   "title": "Well-Being Brief",
-  "description": "Well-Being Brief (WBB) is an evaluation instrument containing scales designed assess multiple dimensions of well-being including personal circumstances, work and school/training, caregiving activities, involvement in health-related behaviors, and more.",
+  "description": "Well-Being Brief (WBB) is a questionnaire containing scales designed to assess multiple dimensions of well-being including personal circumstances, work and school/training, caregiving activities, involvement in health-related behaviors, and more.",
   "status": "draft",
   "experimental": true,
   "date": "2025-03-26",
@@ -302,12 +302,12 @@
           "linkId": "/sdoh",
           "code": [
             {
-              "system": "http://va.gov/fhir/vco/CodeSystem/well-being/sdoh",
+              "system": "http://va.gov/fhir/vco/CodeSystem/sdoh-codes",
               "code": "sdoh",
-              "display": "Legal and housing"
+              "display": "Social Needs"
             }
           ],
-          "text": "Legal & Housing",
+          "text": "Social Needs",
           "type": "group",
           "required": false,
           "item": [
@@ -320,7 +320,7 @@
               "linkId": "/sdoh/food",
               "code": [
                 {
-                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "system": "http://va.gov/fhir/vco/CodeSystem/sdoh-codes",
                   "code": "tbd",
                   "display": "TBD"
                 }
@@ -333,7 +333,7 @@
               "linkId": "/sdoh/housing",
               "code": [
                 {
-                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "system": "http://va.gov/fhir/vco/CodeSystem/sdoh-codes",
                   "code": "tbd",
                   "display": "TBD"
                 }
@@ -346,7 +346,7 @@
               "linkId": "/sdoh/safety",
               "code": [
                 {
-                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "system": "http://va.gov/fhir/vco/CodeSystem/sdoh-codes",
                   "code": "tbd",
                   "display": "TBD"
                 }
@@ -359,7 +359,7 @@
               "linkId": "/sdoh/expenses",
               "code": [
                 {
-                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "system": "http://va.gov/fhir/vco/CodeSystem/sdoh-codes",
                   "code": "tbd",
                   "display": "TBD"
                 }
@@ -372,7 +372,7 @@
               "linkId": "/sdoh/transportation",
               "code": [
                 {
-                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "system": "http://va.gov/fhir/vco/CodeSystem/sdoh-codes",
                   "code": "tbd",
                   "display": "TBD"
                 }
@@ -385,7 +385,7 @@
               "linkId": "/sdoh/healthcare",
               "code": [
                 {
-                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "system": "http://va.gov/fhir/vco/CodeSystem/sdoh-codes",
                   "code": "tbd",
                   "display": "TBD"
                 }
@@ -398,7 +398,7 @@
               "linkId": "/sdoh/legal",
               "code": [
                 {
-                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "system": "http://va.gov/fhir/vco/CodeSystem/sdoh-codes",
                   "code": "tbd",
                   "display": "TBD"
                 }
@@ -413,7 +413,7 @@
           "linkId": "/financial",
           "code": [
             {
-              "system": "http://va.gov/fhir/vco/CodeSystem/well-being/financial",
+              "system": "http://va.gov/fhir/vco/CodeSystem/sdoh-codes",
               "code": "financial",
               "display": "Financial"
             }
@@ -431,7 +431,7 @@
               "linkId": "/financial/manage-money",
               "code": [
                 {
-                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "system": "http://va.gov/fhir/vco/CodeSystem/sdoh-codes",
                   "code": "manage-mone",
                   "display": "Manage money"
                 }
@@ -445,7 +445,7 @@
               "linkId": "/financial/financial-situation",
               "code": [
                 {
-                  "system": "http://va.gov/fhir/vco/CodeSystem/well-being",
+                  "system": "http://va.gov/fhir/vco/CodeSystem/sdoh-codes",
                   "code": "financial-situation",
                   "display": "Financial situation"
                 }
@@ -509,7 +509,17 @@
             {
               "linkId": "/employment/display",
               "type": "display",
-              "text": "Please answer the following questions with regard to the PAST THREE MONTHS."
+              "text": "Please answer the following questions with regard to the PAST THREE MONTHS.",
+              "enableWhen": [
+                {
+                  "question": "/employment/status",
+                  "operator": "=",
+                  "answerCoding": {
+                    "system": "http://va.gov/fhir/vco/CodeSystem/employment-codes",
+                    "code": "working-for-pay"
+                  }
+                }
+              ]
             },
             {
               "linkId": "/employment/work-performance",
@@ -523,7 +533,17 @@
               "text": "On average how often have you been able to do your best work, including for example, your ability to consistently: complete work on time, do your highest quality work, work well with others in your work setting.",
               "type": "choice",
               "required": false,
-              "answerValueSet": "#well-being-frequency"
+              "answerValueSet": "#well-being-frequency",
+              "enableWhen": [
+                {
+                  "question": "/employment/status",
+                  "operator": "=",
+                  "answerCoding": {
+                    "system": "http://va.gov/fhir/vco/CodeSystem/employment-codes",
+                    "code": "working-for-pay"
+                  }
+                }
+              ]
             },
             {
               "linkId": "/employment/work-satisfaction",
@@ -537,7 +557,17 @@
               "text": "How satisfied have you been with your work experience overall, including for example: the kind of work you do and your work environment, the compensation and/or recognition you receive for your work, extent to which your work is advancing your longer-term vocational goals.",
               "type": "choice",
               "required": false,
-              "answerValueSet": "#well-being-satisfaction"
+              "answerValueSet": "#well-being-satisfaction",
+              "enableWhen": [
+                {
+                  "question": "/employment/status",
+                  "operator": "=",
+                  "answerCoding": {
+                    "system": "http://va.gov/fhir/vco/CodeSystem/employment-codes",
+                    "code": "working-for-pay"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -593,7 +623,17 @@
             {
               "linkId": "/school/display",
               "type": "display",
-              "text": "Please answer the following questions with regard to the PAST THREE MONTHS."
+              "text": "Please answer the following questions with regard to the PAST THREE MONTHS.",
+              "enableWhen": [
+                {
+                  "question": "/school/status",
+                  "operator": "=",
+                  "answerCoding": {
+                    "system": "http://va.gov/fhir/vco/CodeSystem/school-codes",
+                    "code": "in-school"
+                  }
+                }
+              ]
             },
             {
               "linkId": "/employment/school-performance",
@@ -607,7 +647,17 @@
               "text": "On average how often have you been able to do your best at school or in your training program, including for example, your ability to consistently: complete work on time, do your highest quality work, work well with others in your program",
               "type": "choice",
               "required": false,
-              "answerValueSet": "#well-being-frequency"
+              "answerValueSet": "#well-being-frequency",
+              "enableWhen": [
+                {
+                  "question": "/school/status",
+                  "operator": "=",
+                  "answerCoding": {
+                    "system": "http://va.gov/fhir/vco/CodeSystem/school-codes",
+                    "code": "in-school"
+                  }
+                }
+              ]
             },
             {
               "linkId": "/employment/school-satisfaction",
@@ -621,7 +671,17 @@
               "text": "How satisfied have you been with your school/training experience overall, including for example: the quality of the instructors and learning content, your learning environment, your ability to advance your longer-term educational/training goals",
               "type": "choice",
               "required": false,
-              "answerValueSet": "#well-being-satisfaction"
+              "answerValueSet": "#well-being-satisfaction",
+              "enableWhen": [
+                {
+                  "question": "/school/status",
+                  "operator": "=",
+                  "answerCoding": {
+                    "system": "http://va.gov/fhir/vco/CodeSystem/school-codes",
+                    "code": "in-school"
+                  }
+                }
+              ]
             }
           ]
         }
