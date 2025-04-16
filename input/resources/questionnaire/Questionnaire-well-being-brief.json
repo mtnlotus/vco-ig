@@ -636,7 +636,7 @@
               ]
             },
             {
-              "linkId": "/employment/school-performance",
+              "linkId": "/school/school-performance",
               "code": [
                 {
                   "system": "http://va.gov/fhir/vco/CodeSystem/school-codes",
@@ -660,7 +660,7 @@
               ]
             },
             {
-              "linkId": "/employment/school-satisfaction",
+              "linkId": "/school/school-satisfaction",
               "code": [
                 {
                   "system": "http://va.gov/fhir/vco/CodeSystem/school-codes",
@@ -680,6 +680,88 @@
                     "system": "http://va.gov/fhir/vco/CodeSystem/school-codes",
                     "code": "in-school"
                   }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "/caregiving",
+          "code": [
+            {
+              "system": "http://va.gov/fhir/vco/CodeSystem/caregiving-codes",
+              "code": "caregiving",
+              "display": "Caregiving Activities"
+            }
+          ],
+          "text": "Caregiving Activities",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/caregiving/status",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/caregiving-codes",
+                  "code": "caregiving-status",
+                  "display": "Caregiving Status"
+                }
+              ],
+              "text": "Do you participate in either of the following types of unpaid caregiving activities on a daily basis: 1) Parenting children under the age of 18; 2) Caring for an adult who needs assistance with day-to-day activities (for example, an aging or disabled pouse/parent/disabled child 18 or over)?",
+              "type": "boolean",
+              "repeats": false
+            },
+            {
+              "linkId": "/caregiving/display",
+              "type": "display",
+              "text": "Please answer the following questions with regard to the PAST THREE MONTHS.",
+              "enableWhen": [
+                {
+                  "question": "/caregiving/status",
+                  "operator": "=",
+                  "answerBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "/caregiving/caregiving-performance",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/caregiving-codes",
+                  "code": "caregiving-performance",
+                  "display": "Caregiving performance"
+                }
+              ],
+              "text": "How often have you been able to function your best in your caregiving activities overall, including for example, your ability to consistently: 1) meet the needs of those you care for; 2) effectively manage their unique challenges; 3) cope well with stressors you experience in this role?",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-frequency",
+              "enableWhen": [
+                {
+                  "question": "/caregiving/status",
+                  "operator": "=",
+                  "answerBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "/caregiving/caregiving-satisfaction",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/caregiving-codes",
+                  "code": "caregiving-satisfaction",
+                  "display": "Caregiving satisfaction"
+                }
+              ],
+              "text": "How satisfied have you been with your caregiving activities overall, including for example: 1) how meaningful/rewarding you find these activities; 2) how well you are doing in this role; 3) your relationship with your children or others you care for?",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-satisfaction",
+              "enableWhen": [
+                {
+                  "question": "/caregiving/status",
+                  "operator": "=",
+                  "answerBoolean": true
                 }
               ]
             }

@@ -88,3 +88,15 @@ Description: "School or training related codes not found in standard terminologi
 * #school-performance "School performance"
 * #school-satisfaction "School satisfaction"
 
+CodeSystem: CaregivingCodes
+Id: caregiving-codes
+Title: "Caregiving Activity Codes"
+Description: "Caregiving activity codes not found in standard terminologies."
+* ^caseSensitive = true
+* ^experimental = true
+* ^status = #draft
+* #caregiving "Caregiving Activities"
+* #caregiving-status "Caregiving Status"
+* #caregiving-performance "Caregiving performance"
+* #caregiving-satisfaction "Caregiving satisfaction"
+
