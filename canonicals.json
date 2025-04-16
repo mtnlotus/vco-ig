@@ -1,5 +1,12 @@
 [
   {
+    "id" : "caregiving-codes",
+    "type" : "CodeSystem",
+    "url" : "http://va.gov/fhir/vco/CodeSystem/caregiving-codes",
+    "version" : "0.1.0",
+    "name" : "CaregivingCodes"
+  },
+  {
     "id" : "employment-codes",
     "type" : "CodeSystem",
     "url" : "http://va.gov/fhir/vco/CodeSystem/employment-codes",

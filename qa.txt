@@ -3,8 +3,9 @@ VCO : Validation Results
 
 err = 10, warn = 22, info = 16
 IG Publisher Version: 1.8.23
-Generated Fri Apr 11 19:48:10 UTC 2025. FHIR version 4.0.1 for va.fhir.vco#0.1.0 (canonical = http://va.gov/fhir/vco)
+Generated Wed Apr 16 13:17:19 UTC 2025. FHIR version 4.0.1 for va.fhir.vco#0.1.0 (canonical = http://va.gov/fhir/vco)
  Build Errors : 0 / 3 / 0
+ /home/runner/work/vco-ig/vco-ig/fsh-generated/resources/CodeSystem-caregiving-codes : 0 / 0 / 1
  /home/runner/work/vco-ig/vco-ig/fsh-generated/resources/CodeSystem-employment-codes : 0 / 0 / 1
  /home/runner/work/vco-ig/vco-ig/fsh-generated/resources/CodeSystem-school-codes : 0 / 0 / 1
  /home/runner/work/vco-ig/vco-ig/fsh-generated/resources/CodeSystem-well-being-answer-codes : 0 / 0 / 1
@@ -12,13 +13,14 @@ Generated Fri Apr 11 19:48:10 UTC 2025. FHIR version 4.0.1 for va.fhir.vco#0.1.0
  /home/runner/work/vco-ig/vco-ig/fsh-generated/resources/ValueSet-well-being-frequency : 0 / 0 / 1
  /home/runner/work/vco-ig/vco-ig/fsh-generated/resources/ValueSet-well-being-satisfaction : 0 / 0 / 1
  /home/runner/work/vco-ig/vco-ig/input/resources/questionnaire/Questionnaire-health-inventory : 0 / 0 / 69
- /home/runner/work/vco-ig/vco-ig/input/resources/questionnaire/Questionnaire-well-being-brief : 10 / 14 / 36
+ /home/runner/work/vco-ig/vco-ig/input/resources/questionnaire/Questionnaire-well-being-brief : 10 / 14 / 40
  /home/runner/work/vco-ig/vco-ig/input/resources/questionnaire/Questionnaire-well-being-signs : 0 / 4 / 6
 </table>
 == n/a ==
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-caregiving-codes.json ==
 == fsh-generated/resources/CodeSystem-employment-codes.json ==
 == fsh-generated/resources/CodeSystem-school-codes.json ==
 == fsh-generated/resources/CodeSystem-well-being-answer-codes.json ==

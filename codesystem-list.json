@@ -1,6 +1,14 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://va.gov/fhir/vco/CodeSystem/caregiving-codes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CaregivingCodes",
+      "title" : "Caregiving Activity Codes",
+      "description" : "Caregiving activity codes not found in standard terminologies."
+    },
+    {
       "url" : "http://va.gov/fhir/vco/CodeSystem/employment-codes",
       "version" : "0.1.0",
       "status" : "draft",

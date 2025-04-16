@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://va.gov/fhir/vco/CodeSystem/caregiving-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "caregiving-codes"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem caregiving-codes</b></p><a name=\"caregiving-codes\"> </a><a name=\"hccaregiving-codes\"> </a><a name=\"caregiving-codes-en-US\"> </a><p>This case-sensitive code system <code>http://va.gov/fhir/vco/CodeSystem/caregiving-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">caregiving<a name=\"caregiving-codes-caregiving\"> </a></td><td>Caregiving Activities</td></tr><tr><td style=\"white-space:nowrap\">caregiving-status<a name=\"caregiving-codes-caregiving-status\"> </a></td><td>Caregiving Status</td></tr><tr><td style=\"white-space:nowrap\">caregiving-performance<a name=\"caregiving-codes-caregiving-performance\"> </a></td><td>Caregiving performance</td></tr><tr><td style=\"white-space:nowrap\">caregiving-satisfaction<a name=\"caregiving-codes-caregiving-satisfaction\"> </a></td><td>Caregiving satisfaction</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://va.gov/fhir/vco/CodeSystem/caregiving-codes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CaregivingCodes"] ; # 
+  fhir:title [ fhir:v "Caregiving Activity Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2025-04-16T13:15:00+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "U.S. Department of Veterans Affairs"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "U.S. Department of Veterans Affairs" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://va.gov" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Caregiving activity codes not found in standard terminologies."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "US" ] ;
+       fhir:display [ fhir:v "United States of America" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "caregiving" ] ;
+     fhir:display [ fhir:v "Caregiving Activities" ]
+  ] [
+     fhir:code [ fhir:v "caregiving-status" ] ;
+     fhir:display [ fhir:v "Caregiving Status" ]
+  ] [
+     fhir:code [ fhir:v "caregiving-performance" ] ;
+     fhir:display [ fhir:v "Caregiving performance" ]
+  ] [
+     fhir:code [ fhir:v "caregiving-satisfaction" ] ;
+     fhir:display [ fhir:v "Caregiving satisfaction" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

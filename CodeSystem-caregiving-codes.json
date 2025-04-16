@@ -1,0 +1,50 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "caregiving-codes",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem caregiving-codes</b></p><a name=\"caregiving-codes\"> </a><a name=\"hccaregiving-codes\"> </a><a name=\"caregiving-codes-en-US\"> </a><p>This case-sensitive code system <code>http://va.gov/fhir/vco/CodeSystem/caregiving-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">caregiving<a name=\"caregiving-codes-caregiving\"> </a></td><td>Caregiving Activities</td></tr><tr><td style=\"white-space:nowrap\">caregiving-status<a name=\"caregiving-codes-caregiving-status\"> </a></td><td>Caregiving Status</td></tr><tr><td style=\"white-space:nowrap\">caregiving-performance<a name=\"caregiving-codes-caregiving-performance\"> </a></td><td>Caregiving performance</td></tr><tr><td style=\"white-space:nowrap\">caregiving-satisfaction<a name=\"caregiving-codes-caregiving-satisfaction\"> </a></td><td>Caregiving satisfaction</td></tr></table></div>"
+  },
+  "url" : "http://va.gov/fhir/vco/CodeSystem/caregiving-codes",
+  "version" : "0.1.0",
+  "name" : "CaregivingCodes",
+  "title" : "Caregiving Activity Codes",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-04-16T13:15:00+00:00",
+  "publisher" : "U.S. Department of Veterans Affairs",
+  "contact" : [{
+    "name" : "U.S. Department of Veterans Affairs",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://va.gov"
+    }]
+  }],
+  "description" : "Caregiving activity codes not found in standard terminologies.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US",
+      "display" : "United States of America"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "caregiving",
+    "display" : "Caregiving Activities"
+  },
+  {
+    "code" : "caregiving-status",
+    "display" : "Caregiving Status"
+  },
+  {
+    "code" : "caregiving-performance",
+    "display" : "Caregiving performance"
+  },
+  {
+    "code" : "caregiving-satisfaction",
+    "display" : "Caregiving satisfaction"
+  }]
+}
