@@ -694,7 +694,7 @@
               "display": "Caregiving Activities"
             }
           ],
-          "text": "Caregiving Activities",
+          "text": "Unpaid Caregiving Activities",
           "type": "group",
           "required": false,
           "item": [
@@ -764,6 +764,343 @@
                   "answerBoolean": true
                 }
               ]
+            }
+          ]
+        },
+        {
+          "linkId": "/health",
+          "code": [
+            {
+              "system": "http://va.gov/fhir/vco/CodeSystem/health-codes",
+              "code": "health",
+              "display": "Health and Healthy Behaviors"
+            }
+          ],
+          "text": "Health & Health-Related Behaviors",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/health/display-1",
+              "type": "display",
+              "text": "In this next section, you will be asked about your health and involvement in health-related behaviors and activities over the PAST THREE MONTHS."
+            },
+            {
+              "linkId": "/health/physical-health",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/health-codes",
+                  "code": "physical-health",
+                  "display": "Physical health"
+                }
+              ],
+              "text": "Overall, I am in good physical health",
+              "type": "boolean",
+              "repeats": false
+            },
+            {
+              "linkId": "/health/emotional-health",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/health-codes",
+                  "code": "emotional-health",
+                  "display": "Emotional health"
+                }
+              ],
+              "text": "Overall, I am in good mental/emotional health",
+              "type": "boolean",
+              "repeats": false
+            },
+            {
+              "linkId": "/health/life-purpose",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/health-codes",
+                  "code": "life-purpose",
+                  "display": "Life purpose"
+                }
+              ],
+              "text": "I have a sense of purpose and meaning in my life",
+              "type": "boolean",
+              "repeats": false
+            },
+            {
+              "linkId": "/health/life-achievement",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/health-codes",
+                  "code": "life-achievement",
+                  "display": "Life achievement"
+                }
+              ],
+              "text": "I believe that I can achieve the things in life that are important to me",
+              "type": "boolean",
+              "repeats": false
+            },
+            {
+              "linkId": "/health/display-frequency",
+              "type": "display",
+              "text": "On average, during the PAST THREE MONTHS how often have you:"
+            },
+            {
+              "linkId": "/health/healthy-diet",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/health-codes",
+                  "code": "healthy-diet",
+                  "display": "Healthy diet"
+                }
+              ],
+              "text": "Eaten a generally healthy diet. (for example, low fat, limited sugar, adequate servings of fruits and vegetables)",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-frequency"
+            },
+            {
+              "linkId": "/health/physical-activity",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/health-codes",
+                  "code": "physical-activity",
+                  "display": "Physical activity"
+                }
+              ],
+              "text": "Gotten at least 2.5 hours of regular physical activity each week. (for example, running, playing a sport, and/or muscle strengthening)",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-frequency"
+            },
+            {
+              "linkId": "/health/sleep",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/health-codes",
+                  "code": "sleep",
+                  "display": "Sleep"
+                }
+              ],
+              "text": "Gotten 6-8 hours of sleep most nights of the week",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-frequency"
+            },
+            {
+              "linkId": "/health/hobbies",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/health-codes",
+                  "code": "hobbies",
+                  "display": "Hobbies and leisure"
+                }
+              ],
+              "text": "Spent at least a few hours each week on hobbies, leisure time activities, or other enjoyable activities",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-frequency"
+            },
+            {
+              "linkId": "/health/nicotine",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/health-codes",
+                  "code": "tobacco",
+                  "display": "Tobacco use"
+                }
+              ],
+              "text": "Used tobacco and/or nicotine products (for example, cigarettes, cigars, vape) most days of the week",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-frequency"
+            },
+            {
+              "linkId": "/health/alcohol-drugs",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/health-codes",
+                  "code": "alcohol-drugs",
+                  "display": "Alcohol or drugs"
+                }
+              ],
+              "text": "Experienced negative consequences like severe hangovers, memory loss, or conflicts with others when using alcohol or drugs (including prescription drugs)",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-frequency"
+            },
+            {
+              "linkId": "/health/display-satisfaction",
+              "type": "display",
+              "text": "Over the PAST THREE MONTHS, how satisfied have you been with:"
+            },
+            {
+              "linkId": "/health/physical-health-satisfaction",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/health-codes",
+                  "code": "physical-health-satisfaction",
+                  "display": "Physical health satisfaction"
+                }
+              ],
+              "text": "The extent to which your physical health allows you to do what is most important in your life?",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-satisfaction"
+            },
+            {
+              "linkId": "/health/emotional-health-satisfaction",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/health-codes",
+                  "code": "emotional-health-satisfaction",
+                  "display": "Emotional health satisfaction"
+                }
+              ],
+              "text": "The extent to which your mental/emotional health allows you to do what is most important in your life?",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-satisfaction"
+            },
+            {
+              "linkId": "/health/spiritual-health-satisfaction",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/health-codes",
+                  "code": "spiritual-health-satisfaction",
+                  "display": "Spiritual health satisfaction"
+                }
+              ],
+              "text": "Your level of spiritual or religious involvement, including your beliefs, practices, and your sense of connection with your spirituality or religion?",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-satisfaction"
+            }
+          ]
+        },
+        {
+          "linkId": "/relationships",
+          "code": [
+            {
+              "system": "http://va.gov/fhir/vco/CodeSystem/relationship-codes",
+              "code": "social-relationships",
+              "display": "Social Relationships"
+            }
+          ],
+          "text": "Social Relationships",
+          "type": "group",
+          "required": false,
+          "item": [
+            {
+              "linkId": "/relationships/display",
+              "type": "display",
+              "text": "In this next section, you will be asked about your social relationships. Please answer the following questions with regard to the PAST THREE MONTHS."
+            },
+            {
+              "linkId": "/relationships/committed-relationship",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/relationship-codes",
+                  "code": "committed-relationship",
+                  "display": "Committed Relationship Status"
+                }
+              ],
+              "text": "Are you currently married or in a committed relationship?",
+              "type": "boolean",
+              "repeats": false
+            },
+            {
+              "linkId": "/relationships/functioning",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/relationship-codes",
+                  "code": "relationship-functioning",
+                  "display": "Relationship functioning"
+                }
+              ],
+              "text": "On average, how often have you been able to function your best in this committed relationship, including for example, your ability to consistently: 1) provide emotional support to your spouse or significant other; 2) share your thoughts and feelings with them; 3) engage in leisure time activities that you both enjoy.",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-frequency",
+              "enableWhen": [
+                {
+                  "question": "/relationships/committed-relationship",
+                  "operator": "=",
+                  "answerBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "/relationships/satisfaction",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/relationship-codes",
+                  "code": "relationship-satisfaction",
+                  "display": "Relationship satisfaction"
+                }
+              ],
+              "text": "How satisfied have you been with your relationship with your spouse or significant other overall, including for example: 1) your emotional closeness; 2) the companionship you get from this relationship; 3) your physical connection with your partner.",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-satisfaction",
+              "enableWhen": [
+                {
+                  "question": "/relationships/committed-relationship",
+                  "operator": "=",
+                  "answerBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "/relationships/non-family",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/relationship-codes",
+                  "code": "relationship-non-family",
+                  "display": "Relationships non-family"
+                }
+              ],
+              "text": "Are there people outside of your immediate family that you are close with, for example, friends, relatives or other people your community that you get together with or community with on a regular basis?",
+              "type": "boolean",
+              "repeats": false
+            },
+            {
+              "linkId": "/relationships/community",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/relationship-codes",
+                  "code": "relationship-community",
+                  "display": "Relationships community"
+                }
+              ],
+              "text": "Do you participate in a community group or other activity on a regular basis, for example, a religious/spiritual community or a group with shared hobbies or interests like a sports team, book club, Veterans organization, or volunteering?",
+              "type": "boolean",
+              "repeats": false
+            },
+            {
+              "linkId": "/relationships/non-family-functioning",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/relationship-codes",
+                  "code": "relationship-non-family-functioning",
+                  "display": "Relationships non-family functioning"
+                }
+              ],
+              "text": "How often have you been able to function your best in your interactions with people outside your immediate family, for example, consistently: 1) making the effort to spend time with others; 2) getting along well with others; 3) offering support for others either by being a good listener or doing things to help them out.",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-frequency"
+            },
+            {
+              "linkId": "/relationships/non-family-satisfaction",
+              "code": [
+                {
+                  "system": "http://va.gov/fhir/vco/CodeSystem/relationship-codes",
+                  "code": "relationship-non-family-satisfaction",
+                  "display": "Relationship non-family satisfaction"
+                }
+              ],
+              "text": "How satisfied have you been with your relationships with people outside your immediate family overall, including, for example: 1) your relationships with friends; 2) your relationships with relatives; 3) your sense of belonging in your community.",
+              "type": "choice",
+              "required": false,
+              "answerValueSet": "#well-being-satisfaction"
             }
           ]
         }
