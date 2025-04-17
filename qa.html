@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 10, warn = 22, info = 16-->
+<!-- broken links = 0, errors = 10, warn = 44, info = 38-->
 <head>
   <title>VCO : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -46,9 +46,9 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for VCO</h1>
- <p>Generated Wed Apr 16 13:17:19 UTC 2025, FHIR version 4.0.1 for va.fhir.vco#0.1.0 (canonical = <a href="http://va.gov/fhir/vco">http://va.gov/fhir/vco</a> (<a href="http://va.gov/fhir/vco/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Thu Apr 17 22:41:52 UTC 2025, FHIR version 4.0.1 for va.fhir.vco#0.1.0 (canonical = <a href="http://va.gov/fhir/vco">http://va.gov/fhir/vco</a> (<a href="http://va.gov/fhir/vco/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.8.23</span></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.8.24</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = va.fhir.vco, Canonical = http://va.gov/fhir/vco</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
  <tr><td>Language Info:</td><td>This IG has no language information</td></tr>
@@ -89,7 +89,7 @@
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="ae" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/runner/work/vco-ig/vco-ig/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALElEQVR4Xu3IsQ0AIAwEsez6+89AqKGGJj7JzVWS+mm3zgcAAMxwDQAAgFcaYAVAgNGLTjgAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img onClick="tableRowAction(this)" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAACfSURBVDhP7ZJBD4IwDIVbrvqft/1kEw8egNKHrRKyjiXG4MEvWVtYebwuYxGhCGZsC9tjlaZAD4PlKnBgZcgPOSildFtJKb0PFgJYOWdNz3rDxfKLbR9Wc4RE9LAypCmguAO3fEXws0GOBNAghehm9YyXyh1Bra+CyJEAGlhHwB/X2mfeczTCiFD70GkK6AiTlSEf34PvXuUe/gLnCxAtVClV++yUSjoAAAAASUVORK5CYII=" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.uv.cpg</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">2.0.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: green" title="Latest Milestone Release">M</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/uv/cpg</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/uv/cpg/STU2</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="aea" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/runner/work/vco-ig/vco-ig/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALElEQVR4Xu3IsQ0AIAwEsez6+89AqKGGJj7JzVWS+mm3zgcAAMxwDQAAgFcaYAVAgNGLTjgAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIZgEiYEgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAIElEQVQ4y2P8//8/AyWAiYFCMGrAqAGjBowaMGoAAgAALL0DKYQ0DPIAAAAASUVORK5CYII=" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.terminology.r4</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">6.1.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="Not yet released">U</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org/6.1.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aeb" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/runner/work/vco-ig/vco-ig/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAJUlEQVR4Xu3IIQEAAAgDsHd9/w4EQIOamFnaBgAA4MMKAACAKwNp30CqZFfFmwAAAABJRU5ErkJggg==)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIZgEiYEgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAIElEQVQ4y2P8//8/AyWAiYFCMGrAqAGjBowaMGoAAgAALL0DKYQ0DPIAAAAASUVORK5CYII=" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.uv.extensions.r4</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">5.1.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="Outdated Release">O</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/extensions</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/extensions/5.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">see above. Latest Release is 5.2.0</td></tr>
-</table><para>Templates: cqf.fhir.template#0.7.1 -&gt; fhir.base.template#0.8.1. Tools: 0.4.1</para></div></td></tr>
+</table><para>Templates: cqf.fhir.template#0.7.1 -&gt; fhir.base.template#0.8.1. Tools: 0.5.0</para></div></td></tr>
  <tr><td>Related IGs:</td><td>n/a</td></tr>
  <tr><td>Dependent IGs:</td><td><a href="qa-dep.html">no references</a></td></tr>
  <tr><td>Global Profiles:</td><td>(none declared)</td></tr>
@@ -119,7 +119,7 @@ hl7.fhir.uv.sdc#3.0.0:     <a href="http://hl7.org/fhir/uv/sdc/STU3/StructureDef
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
  <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
- <tr><td>Summary:</td><td> errors = 10, warn = 22, info = 16, broken links = 0, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
+ <tr><td>Summary:</td><td> errors = 10, warn = 44, info = 38, broken links = 0, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -153,7 +153,7 @@ hl7.fhir.uv.sdc#3.0.0:     <a href="http://hl7.org/fhir/uv/sdc/STU3/StructureDef
      <td><a href="#_home_runner_work_vco-ig_vco-ig_input_resources_questionnaire_Questionnaire-health-inventory"><b>/home/runner/work/vco-ig/vco-ig/input/resources/questionnaire/Questionnaire-health-inventory</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_home_runner_work_vco-ig_vco-ig_input_resources_questionnaire_Questionnaire-well-being-brief"><b>/home/runner/work/vco-ig/vco-ig/input/resources/questionnaire/Questionnaire-well-being-brief</b></a></td><td><b>10</b></td><td><b>14</b></td><td><b>12</b></td>
+     <td><a href="#_home_runner_work_vco-ig_vco-ig_input_resources_questionnaire_Questionnaire-well-being-brief"><b>/home/runner/work/vco-ig/vco-ig/input/resources/questionnaire/Questionnaire-well-being-brief</b></a></td><td><b>10</b></td><td><b>36</b></td><td><b>34</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_vco-ig_vco-ig_input_resources_questionnaire_Questionnaire-well-being-signs"><b>/home/runner/work/vco-ig/vco-ig/input/resources/questionnaire/Questionnaire-well-being-signs</b></a></td><td><b>0</b></td><td><b>4</b></td><td><b>4</b></td>
@@ -267,112 +267,244 @@ hl7.fhir.uv.sdc#3.0.0:     <a href="http://hl7.org/fhir/uv/sdc/STU3/StructureDef
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Questionnaire&#8203;.contained[0]&#8203;/*ValueSet&#8203;/well-being-frequency*&#8203;/&#8203;.meta&#8203;.profile[0] (l1&#8203;/c66090)</b></td><td><b>error</b></td><td><b>Canonical URL 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE</span></td>
+     <td><b>Questionnaire&#8203;.contained[0]&#8203;/*ValueSet&#8203;/well-being-frequency*&#8203;/&#8203;.meta&#8203;.profile[0] (l1&#8203;/c113080)</b></td><td><b>error</b></td><td><b>Canonical URL 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE</span></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Questionnaire&#8203;.contained[0]&#8203;/*ValueSet&#8203;/well-being-frequency*&#8203;/&#8203;.extension[0] (l1&#8203;/c66213)</b></td><td><b>error</b></td><td><b>The extension http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability could not be found so is not allowed here</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Extension_EXT_Unknown_NotHere</span></td>
+     <td><b>Questionnaire&#8203;.contained[0]&#8203;/*ValueSet&#8203;/well-being-frequency*&#8203;/&#8203;.extension[0] (l1&#8203;/c113203)</b></td><td><b>error</b></td><td><b>The extension http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability could not be found so is not allowed here</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Extension_EXT_Unknown_NotHere</span></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Questionnaire&#8203;.contained[0]&#8203;/*ValueSet&#8203;/well-being-frequency*&#8203;/&#8203;.extension[0]&#8203;.url (l1&#8203;/c66185)</b></td><td><b>error</b></td><td><b>URL value 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.contained[0]&#8203;/*ValueSet&#8203;/well-being-frequency*&#8203;/&#8203;.extension[0]&#8203;.url (l1&#8203;/c113175)</b></td><td><b>error</b></td><td><b>URL value 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Questionnaire&#8203;.contained[0]&#8203;/*ValueSet&#8203;/well-being-frequency*&#8203;/&#8203;.extension[1] (l1&#8203;/c66330)</b></td><td><b>error</b></td><td><b>The extension http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel could not be found so is not allowed here</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Extension_EXT_Unknown_NotHere</span></td>
+     <td><b>Questionnaire&#8203;.contained[0]&#8203;/*ValueSet&#8203;/well-being-frequency*&#8203;/&#8203;.extension[1] (l1&#8203;/c113320)</b></td><td><b>error</b></td><td><b>The extension http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel could not be found so is not allowed here</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Extension_EXT_Unknown_NotHere</span></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Questionnaire&#8203;.contained[0]&#8203;/*ValueSet&#8203;/well-being-frequency*&#8203;/&#8203;.extension[1]&#8203;.url (l1&#8203;/c66302)</b></td><td><b>error</b></td><td><b>URL value 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.contained[0]&#8203;/*ValueSet&#8203;/well-being-frequency*&#8203;/&#8203;.extension[1]&#8203;.url (l1&#8203;/c113292)</b></td><td><b>error</b></td><td><b>URL value 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Questionnaire&#8203;.contained[0]&#8203;/*ValueSet&#8203;/well-being-frequency*&#8203;/&#8203;.meta&#8203;.profile[0] (l1&#8203;/c67908)</b></td><td><b>warning</b></td><td><b>Profile reference 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY</span></td>
+     <td><b>Questionnaire&#8203;.contained[0]&#8203;/*ValueSet&#8203;/well-being-frequency*&#8203;/&#8203;.meta&#8203;.profile[0] (l1&#8203;/c114898)</b></td><td><b>warning</b></td><td><b>Profile reference 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY</span></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Questionnaire&#8203;.contained[1]&#8203;/*ValueSet&#8203;/well-being-satisfaction*&#8203;/&#8203;.meta&#8203;.profile[0] (l1&#8203;/c68057)</b></td><td><b>error</b></td><td><b>Canonical URL 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE</span></td>
+     <td><b>Questionnaire&#8203;.contained[1]&#8203;/*ValueSet&#8203;/well-being-satisfaction*&#8203;/&#8203;.meta&#8203;.profile[0] (l1&#8203;/c115047)</b></td><td><b>error</b></td><td><b>Canonical URL 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE</span></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Questionnaire&#8203;.contained[1]&#8203;/*ValueSet&#8203;/well-being-satisfaction*&#8203;/&#8203;.extension[0] (l1&#8203;/c68180)</b></td><td><b>error</b></td><td><b>The extension http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability could not be found so is not allowed here</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Extension_EXT_Unknown_NotHere</span></td>
+     <td><b>Questionnaire&#8203;.contained[1]&#8203;/*ValueSet&#8203;/well-being-satisfaction*&#8203;/&#8203;.extension[0] (l1&#8203;/c115170)</b></td><td><b>error</b></td><td><b>The extension http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability could not be found so is not allowed here</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Extension_EXT_Unknown_NotHere</span></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Questionnaire&#8203;.contained[1]&#8203;/*ValueSet&#8203;/well-being-satisfaction*&#8203;/&#8203;.extension[0]&#8203;.url (l1&#8203;/c68152)</b></td><td><b>error</b></td><td><b>URL value 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.contained[1]&#8203;/*ValueSet&#8203;/well-being-satisfaction*&#8203;/&#8203;.extension[0]&#8203;.url (l1&#8203;/c115142)</b></td><td><b>error</b></td><td><b>URL value 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Questionnaire&#8203;.contained[1]&#8203;/*ValueSet&#8203;/well-being-satisfaction*&#8203;/&#8203;.extension[1] (l1&#8203;/c68297)</b></td><td><b>error</b></td><td><b>The extension http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel could not be found so is not allowed here</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Extension_EXT_Unknown_NotHere</span></td>
+     <td><b>Questionnaire&#8203;.contained[1]&#8203;/*ValueSet&#8203;/well-being-satisfaction*&#8203;/&#8203;.extension[1] (l1&#8203;/c115287)</b></td><td><b>error</b></td><td><b>The extension http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel could not be found so is not allowed here</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Extension_EXT_Unknown_NotHere</span></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Questionnaire&#8203;.contained[1]&#8203;/*ValueSet&#8203;/well-being-satisfaction*&#8203;/&#8203;.extension[1]&#8203;.url (l1&#8203;/c68269)</b></td><td><b>error</b></td><td><b>URL value 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.contained[1]&#8203;/*ValueSet&#8203;/well-being-satisfaction*&#8203;/&#8203;.extension[1]&#8203;.url (l1&#8203;/c115259)</b></td><td><b>error</b></td><td><b>URL value 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Questionnaire&#8203;.contained[1]&#8203;/*ValueSet&#8203;/well-being-satisfaction*&#8203;/&#8203;.meta&#8203;.profile[0] (l1&#8203;/c70274)</b></td><td><b>warning</b></td><td><b>Profile reference 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY</span></td>
+     <td><b>Questionnaire&#8203;.contained[1]&#8203;/*ValueSet&#8203;/well-being-satisfaction*&#8203;/&#8203;.meta&#8203;.profile[0] (l1&#8203;/c117264)</b></td><td><b>warning</b></td><td><b>Profile reference 'http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablevalueset' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY</span></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Questionnaire.code[0] (l1/c71502)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/well-being' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+     <td><b>Questionnaire.code[0] (l1/c118492)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/well-being' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Questionnaire&#8203;.code[0]&#8203;.system (l1&#8203;/c71446)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/well-being' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.code[0]&#8203;.system (l1&#8203;/c118436)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/well-being' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.code[0] (l1&#8203;/c72123)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.code[0] (l1&#8203;/c119113)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.code[0]&#8203;.system (l1&#8203;/c72083)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.code[0]&#8203;.system (l1&#8203;/c119073)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[1]&#8203;.code[0] (l1&#8203;/c72453)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[1]&#8203;.code[0] (l1&#8203;/c119443)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[1]&#8203;.code[0]&#8203;.system (l1&#8203;/c72423)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[1]&#8203;.code[0]&#8203;.system (l1&#8203;/c119413)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[2]&#8203;.code[0] (l1&#8203;/c72653)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[2]&#8203;.code[0] (l1&#8203;/c119643)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[2]&#8203;.code[0]&#8203;.system (l1&#8203;/c72623)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[2]&#8203;.code[0]&#8203;.system (l1&#8203;/c119613)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[3]&#8203;.code[0] (l1&#8203;/c72871)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[3]&#8203;.code[0] (l1&#8203;/c119861)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[3]&#8203;.code[0]&#8203;.system (l1&#8203;/c72841)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[3]&#8203;.code[0]&#8203;.system (l1&#8203;/c119831)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[4]&#8203;.code[0] (l1&#8203;/c73078)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[4]&#8203;.code[0] (l1&#8203;/c120068)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[4]&#8203;.code[0]&#8203;.system (l1&#8203;/c73048)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[4]&#8203;.code[0]&#8203;.system (l1&#8203;/c120038)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[5]&#8203;.code[0] (l1&#8203;/c73327)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[5]&#8203;.code[0] (l1&#8203;/c120317)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[5]&#8203;.code[0]&#8203;.system (l1&#8203;/c73297)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[5]&#8203;.code[0]&#8203;.system (l1&#8203;/c120287)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[6]&#8203;.code[0] (l1&#8203;/c73538)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[6]&#8203;.code[0] (l1&#8203;/c120528)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[6]&#8203;.code[0]&#8203;.system (l1&#8203;/c73508)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[6]&#8203;.code[0]&#8203;.system (l1&#8203;/c120498)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[7]&#8203;.code[0] (l1&#8203;/c73741)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[7]&#8203;.code[0] (l1&#8203;/c120731)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[7]&#8203;.code[0]&#8203;.system (l1&#8203;/c73711)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[1]&#8203;.item[7]&#8203;.code[0]&#8203;.system (l1&#8203;/c120701)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[2]&#8203;.code[0] (l1&#8203;/c73989)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[2]&#8203;.code[0] (l1&#8203;/c120979)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[2]&#8203;.code[0]&#8203;.system (l1&#8203;/c73947)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[2]&#8203;.code[0]&#8203;.system (l1&#8203;/c120937)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[2]&#8203;.item[1]&#8203;.code[0] (l1&#8203;/c74349)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[2]&#8203;.item[1]&#8203;.code[0] (l1&#8203;/c121339)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[2]&#8203;.item[1]&#8203;.code[0]&#8203;.system (l1&#8203;/c74302)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[2]&#8203;.item[1]&#8203;.code[0]&#8203;.system (l1&#8203;/c121292)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[2]&#8203;.item[2]&#8203;.code[0] (l1&#8203;/c74788)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[2]&#8203;.item[2]&#8203;.code[0] (l1&#8203;/c121778)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[2]&#8203;.item[2]&#8203;.code[0]&#8203;.system (l1&#8203;/c74726)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[2]&#8203;.item[2]&#8203;.code[0]&#8203;.system (l1&#8203;/c121716)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.code[0] (l1&#8203;/c129712)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.code[0]&#8203;.system (l1&#8203;/c129654)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[1]&#8203;.code[0] (l1&#8203;/c130155)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[1]&#8203;.code[0]&#8203;.system (l1&#8203;/c130101)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[2]&#8203;.code[0] (l1&#8203;/c130397)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[2]&#8203;.code[0]&#8203;.system (l1&#8203;/c130341)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[3]&#8203;.code[0] (l1&#8203;/c130635)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[3]&#8203;.code[0]&#8203;.system (l1&#8203;/c130587)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[4]&#8203;.code[0] (l1&#8203;/c130888)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[4]&#8203;.code[0]&#8203;.system (l1&#8203;/c130832)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[6]&#8203;.code[0] (l1&#8203;/c131279)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[6]&#8203;.code[0]&#8203;.system (l1&#8203;/c131231)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[7]&#8203;.code[0] (l1&#8203;/c131641)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[7]&#8203;.code[0]&#8203;.system (l1&#8203;/c131583)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[8]&#8203;.code[0] (l1&#8203;/c131988)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[8]&#8203;.code[0]&#8203;.system (l1&#8203;/c131954)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[9]&#8203;.code[0] (l1&#8203;/c132268)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[9]&#8203;.code[0]&#8203;.system (l1&#8203;/c132218)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[10]&#8203;.code[0] (l1&#8203;/c132595)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[10]&#8203;.code[0]&#8203;.system (l1&#8203;/c132553)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[11]&#8203;.code[0] (l1&#8203;/c132934)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[11]&#8203;.code[0]&#8203;.system (l1&#8203;/c132881)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[13]&#8203;.code[0] (l1&#8203;/c133499)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[13]&#8203;.code[0]&#8203;.system (l1&#8203;/c133419)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[14]&#8203;.code[0] (l1&#8203;/c133881)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[14]&#8203;.code[0]&#8203;.system (l1&#8203;/c133799)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[15]&#8203;.code[0] (l1&#8203;/c134271)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[6]&#8203;.item[15]&#8203;.code[0]&#8203;.system (l1&#8203;/c134189)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.code[0] (l1&#8203;/c134675)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.code[0]&#8203;.system (l1&#8203;/c134611)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.item[1]&#8203;.code[0] (l1&#8203;/c135155)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.item[1]&#8203;.code[0]&#8203;.system (l1&#8203;/c135080)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.item[2]&#8203;.code[0] (l1&#8203;/c135441)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.item[2]&#8203;.code[0]&#8203;.system (l1&#8203;/c135369)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.item[3]&#8203;.code[0] (l1&#8203;/c136136)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.item[3]&#8203;.code[0]&#8203;.system (l1&#8203;/c136062)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.item[4]&#8203;.code[0] (l1&#8203;/c136760)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.item[4]&#8203;.code[0]&#8203;.system (l1&#8203;/c136689)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.item[5]&#8203;.code[0] (l1&#8203;/c137186)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.item[5]&#8203;.code[0]&#8203;.system (l1&#8203;/c137117)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.item[6]&#8203;.code[0] (l1&#8203;/c137686)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.item[6]&#8203;.code[0]&#8203;.system (l1&#8203;/c137591)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.item[7]&#8203;.code[0] (l1&#8203;/c138313)</b></td><td><b>information</b></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire&#8203;.item[0]&#8203;.item[7]&#8203;.item[7]&#8203;.code[0]&#8203;.system (l1&#8203;/c138217)</b></td><td><b>warning</b></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
    </tr>
 </table>
 <hr/>
@@ -526,6 +658,72 @@ hl7.fhir.uv.sdc#3.0.0:     <a href="http://hl7.org/fhir/uv/sdc/STU3/StructureDef
      <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve</b></td>
    </tr>
    <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
      <td><a href="Questionnaire-well-being-signs.html">input/resources/questionnaire/Questionnaire-well-being-signs.json</a></td><td><b>URL value 'http://va.gov/fhir/vco/CodeSystem/well-being' does not resolve</b></td>
    </tr>
    <tr style="background-color: #fff4ee">
@@ -577,6 +775,72 @@ hl7.fhir.uv.sdc#3.0.0:     <a href="http://hl7.org/fhir/uv/sdc/STU3/StructureDef
    </tr>
    <tr style="background-color: #fffff2">
      <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Questionnaire-well-being-brief.html">input/resources/questionnaire/Questionnaire-well-being-brief.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated</b></td>
    </tr>
    <tr style="background-color: #fffff2">
      <td><a href="Questionnaire-well-being-signs.html">input/resources/questionnaire/Questionnaire-well-being-signs.json</a></td><td><b>A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/well-being' could not be found, so the code cannot be validated</b></td>

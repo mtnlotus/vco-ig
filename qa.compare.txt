@@ -1,7 +1,7 @@
 VCO : Validation Results
 =========================================
 
-err = 10, warn = 22, info = 16
+err = 10, warn = 44, info = 38
 $--
 Generated $--. FHIR version $-- for va.fhir.vco#$-- (canonical = http://va.gov/fhir/vco)
  Build Errors : 0 / 3 / 0
@@ -13,7 +13,7 @@ Generated $--. FHIR version $-- for va.fhir.vco#$-- (canonical = http://va.gov/f
  /home/runner/work/vco-ig/vco-ig/fsh-generated/resources/ValueSet-well-being-frequency : 0 / 0 / 1
  /home/runner/work/vco-ig/vco-ig/fsh-generated/resources/ValueSet-well-being-satisfaction : 0 / 0 / 1
  /home/runner/work/vco-ig/vco-ig/input/resources/questionnaire/Questionnaire-health-inventory : 0 / 0 / 69
- /home/runner/work/vco-ig/vco-ig/input/resources/questionnaire/Questionnaire-well-being-brief : 10 / 14 / 40
+ /home/runner/work/vco-ig/vco-ig/input/resources/questionnaire/Questionnaire-well-being-brief : 10 / 36 / 62
  /home/runner/work/vco-ig/vco-ig/input/resources/questionnaire/Questionnaire-well-being-signs : 0 / 4 / 6
 </table>
 == n/a ==
@@ -66,6 +66,50 @@ INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[2].item[
 WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[2].item[1].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve
 INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[2].item[2].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' could not be found, so the code cannot be validated
 WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[2].item[2].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/sdoh-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[1].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[1].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[2].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[2].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[3].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[3].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[4].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[4].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[6].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[6].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[7].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[7].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[8].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[8].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[9].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[9].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[10].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[10].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[11].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[11].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[13].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[13].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[14].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[14].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[15].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/health-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[6].item[15].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/health-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].item[1].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].item[1].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].item[2].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].item[2].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].item[3].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].item[3].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].item[4].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].item[4].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].item[5].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].item[5].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].item[6].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].item[6].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve
+INFORMATION: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].item[7].code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' could not be found, so the code cannot be validated
+WARNING: Questionnaire/well-being-brief: Questionnaire.item[0].item[7].item[7].code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/relationship-codes' does not resolve
 == input/resources/questionnaire/Questionnaire-well-being-signs.json ==
 INFORMATION: Questionnaire/well-being-signs: Questionnaire.code[0]: A definition for CodeSystem 'http://va.gov/fhir/vco/CodeSystem/well-being' could not be found, so the code cannot be validated
 WARNING: Questionnaire/well-being-signs: Questionnaire.code[0].system: URL value 'http://va.gov/fhir/vco/CodeSystem/well-being' does not resolve
