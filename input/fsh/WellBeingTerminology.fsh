@@ -61,7 +61,7 @@ Description: "Well-being answer codes not found in LOINC"
 CodeSystem: EmploymentCodes
 Id: employment-codes
 Title: "Employment Codes"
-Description: "Employment related codes not found in standard terminologies."
+Description: "Employment related codes, mapping to standard terminologies is TBD."
 * ^caseSensitive = true
 * ^experimental = true
 * ^status = #draft
@@ -76,7 +76,7 @@ Description: "Employment related codes not found in standard terminologies."
 CodeSystem: SchoolCodes
 Id: school-codes
 Title: "School Codes"
-Description: "School or training related codes not found in standard terminologies."
+Description: "School or training related codes, mapping to standard terminologies is TBD."
 * ^caseSensitive = true
 * ^experimental = true
 * ^status = #draft
@@ -91,7 +91,7 @@ Description: "School or training related codes not found in standard terminologi
 CodeSystem: CaregivingCodes
 Id: caregiving-codes
 Title: "Caregiving Activity Codes"
-Description: "Caregiving activity codes not found in standard terminologies."
+Description: "Caregiving activity codes, mapping to standard terminologies is TBD."
 * ^caseSensitive = true
 * ^experimental = true
 * ^status = #draft
