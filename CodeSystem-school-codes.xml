@@ -11,7 +11,7 @@
   <title value="School Codes"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2025-04-17T22:39:33+00:00"/>
+  <date value="2025-04-21T21:10:00+00:00"/>
   <publisher value="U.S. Department of Veterans Affairs"/>
   <contact>
     <name value="U.S. Department of Veterans Affairs"/>
@@ -20,7 +20,7 @@
       <value value="http://va.gov"/>
     </telecom>
   </contact>
-  <description value="School or training related codes not found in standard terminologies."/>
+  <description value="School or training related codes, mapping to standard terminologies is TBD."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

@@ -11,7 +11,7 @@
   "title" : "Caregiving Activity Codes",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-04-17T22:39:33+00:00",
+  "date" : "2025-04-21T21:10:00+00:00",
   "publisher" : "U.S. Department of Veterans Affairs",
   "contact" : [{
     "name" : "U.S. Department of Veterans Affairs",
@@ -20,7 +20,7 @@
       "value" : "http://va.gov"
     }]
   }],
-  "description" : "Caregiving activity codes not found in standard terminologies.",
+  "description" : "Caregiving activity codes, mapping to standard terminologies is TBD.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

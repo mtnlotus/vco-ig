@@ -10,7 +10,7 @@
   "name" : "VCO",
   "title" : "Veteran-Centered Outcomes (VCO) Implementation Guide",
   "status" : "draft",
-  "date" : "2025-04-17T22:39:33+00:00",
+  "date" : "2025-04-21T21:10:00+00:00",
   "publisher" : "U.S. Department of Veterans Affairs",
   "contact" : [{
     "name" : "U.S. Department of Veterans Affairs",
@@ -624,7 +624,7 @@
         "reference" : "CodeSystem/caregiving-codes"
       },
       "name" : "Caregiving Activity Codes",
-      "description" : "Caregiving activity codes not found in standard terminologies.",
+      "description" : "Caregiving activity codes, mapping to standard terminologies is TBD.",
       "exampleBoolean" : false
     },
     {
@@ -636,7 +636,7 @@
         "reference" : "CodeSystem/employment-codes"
       },
       "name" : "Employment Codes",
-      "description" : "Employment related codes not found in standard terminologies.",
+      "description" : "Employment related codes, mapping to standard terminologies is TBD.",
       "exampleBoolean" : false
     },
     {
@@ -660,7 +660,7 @@
         "reference" : "CodeSystem/school-codes"
       },
       "name" : "School Codes",
-      "description" : "School or training related codes not found in standard terminologies.",
+      "description" : "School or training related codes, mapping to standard terminologies is TBD.",
       "exampleBoolean" : false
     },
     {

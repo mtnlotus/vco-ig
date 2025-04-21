@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "VCO"] ; # 
   fhir:title [ fhir:v "Veteran-Centered Outcomes (VCO) Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-17T22:39:33+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-21T21:10:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "U.S. Department of Veterans Affairs"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "U.S. Department of Veterans Affairs" ] ;
@@ -850,7 +850,7 @@
          fhir:reference [ fhir:v "CodeSystem/caregiving-codes" ]
        ] ;
        fhir:name [ fhir:v "Caregiving Activity Codes" ] ;
-       fhir:description [ fhir:v "Caregiving activity codes not found in standard terminologies." ] ;
+       fhir:description [ fhir:v "Caregiving activity codes, mapping to standard terminologies is TBD." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -868,7 +868,7 @@
          fhir:reference [ fhir:v "CodeSystem/employment-codes" ]
        ] ;
        fhir:name [ fhir:v "Employment Codes" ] ;
-       fhir:description [ fhir:v "Employment related codes not found in standard terminologies." ] ;
+       fhir:description [ fhir:v "Employment related codes, mapping to standard terminologies is TBD." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -904,7 +904,7 @@
          fhir:reference [ fhir:v "CodeSystem/school-codes" ]
        ] ;
        fhir:name [ fhir:v "School Codes" ] ;
-       fhir:description [ fhir:v "School or training related codes not found in standard terminologies." ] ;
+       fhir:description [ fhir:v "School or training related codes, mapping to standard terminologies is TBD." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

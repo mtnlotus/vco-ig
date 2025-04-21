@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "School Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
-  fhir:date [ fhir:v "2025-04-17T22:39:33+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-21T21:10:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "U.S. Department of Veterans Affairs"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "U.S. Department of Veterans Affairs" ] ;
@@ -28,7 +28,7 @@
        fhir:value [ fhir:v "http://va.gov" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "School or training related codes not found in standard terminologies."] ; # 
+  fhir:description [ fhir:v "School or training related codes, mapping to standard terminologies is TBD."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;

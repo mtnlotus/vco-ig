@@ -6,7 +6,7 @@
       "status" : "draft",
       "name" : "CaregivingCodes",
       "title" : "Caregiving Activity Codes",
-      "description" : "Caregiving activity codes not found in standard terminologies."
+      "description" : "Caregiving activity codes, mapping to standard terminologies is TBD."
     },
     {
       "url" : "http://va.gov/fhir/vco/CodeSystem/employment-codes",
@@ -14,7 +14,7 @@
       "status" : "draft",
       "name" : "EmploymentCodes",
       "title" : "Employment Codes",
-      "description" : "Employment related codes not found in standard terminologies."
+      "description" : "Employment related codes, mapping to standard terminologies is TBD."
     },
     {
       "url" : "http://va.gov/fhir/vco/CodeSystem/school-codes",
@@ -22,7 +22,7 @@
       "status" : "draft",
       "name" : "SchoolCodes",
       "title" : "School Codes",
-      "description" : "School or training related codes not found in standard terminologies."
+      "description" : "School or training related codes, mapping to standard terminologies is TBD."
     },
     {
       "url" : "http://va.gov/fhir/vco/CodeSystem/well-being-answer-codes",

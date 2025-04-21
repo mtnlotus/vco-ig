@@ -10,9 +10,9 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
+      "ValueSet-well-being-brief_well-being-frequency.html" : "Well-Being Frequency Answers",
       "ValueSet-well-being-brief_well-being-satisfaction.html" : "Well-Being Satisfaction Answers",
       "ValueSet-well-being-frequency.html" : "Well-Being Frequency Answers",
-      "ValueSet-well-being-brief_well-being-frequency.html" : "Well-Being Frequency Answers",
       "ValueSet-well-being-satisfaction.html" : "Well-Being Satisfaction Answers"
     },
     {
