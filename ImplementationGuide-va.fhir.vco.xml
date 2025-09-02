@@ -3,7 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="va.fhir.vco"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide va.fhir.vco</b></p><a name="va.fhir.vco"> </a><a name="hcva.fhir.vco"> </a><a name="va.fhir.vco-en-US"> </a><h2>VCO</h2><p>The official URL for this implementation guide is: </p><pre>http://va.gov/fhir/vco/ImplementationGuide/va.fhir.vco</pre><div><p>Veteran-Centered Outcomes (VCO) FHIR Implementation Guide</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide va.fhir.vco</b></p><a name="va.fhir.vco"> </a><a name="hcva.fhir.vco"> </a><h2>VCO</h2><p>The official URL for this implementation guide is: </p><pre>http://va.gov/fhir/vco/ImplementationGuide/va.fhir.vco</pre><div><p>Veteran-Centered Outcomes (VCO) FHIR Implementation Guide</p>
 </div></div>
   </text>
   <url value="http://va.gov/fhir/vco/ImplementationGuide/va.fhir.vco"/>
@@ -11,7 +11,7 @@
   <name value="VCO"/>
   <title value="Veteran-Centered Outcomes (VCO) Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-04-21T21:10:00+00:00"/>
+  <date value="2025-09-02T17:50:40+00:00"/>
   <publisher value="U.S. Department of Veterans Affairs"/>
   <contact>
     <name value="U.S. Department of Veterans Affairs"/>
@@ -31,15 +31,18 @@
   <packageId value="va.fhir.vco"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
+    </extension>
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="6.5.0"/>
+  </dependsOn>
   <dependsOn id="hl7_fhir_us_pco">
     <uri value="http://hl7.org/fhir/us/pco/ImplementationGuide/hl7.fhir.us.pco"/>
     <packageId value="hl7.fhir.us.pco"/>
     <version value="dev"/>
-  </dependsOn>
-  <dependsOn id="hl7_terminology_r4">
-    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
-    <packageId value="hl7.terminology.r4"/>
-    <version value="6.2.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_us_core">
     <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
@@ -51,10 +54,20 @@
     <packageId value="hl7.fhir.uv.extensions.r4"/>
     <version value="5.2.0"/>
   </dependsOn>
-  <dependsOn id="hl7_fhir_uv_cpg">
-    <uri value="http://hl7.org/fhir/uv/cpg/ImplementationGuide/hl7.fhir.uv.cpg"/>
-    <packageId value="hl7.fhir.uv.cpg"/>
+  <dependsOn id="hl7_fhir_us_cqfmeasures">
+    <uri value="http://hl7.org/fhir/us/cqfmeasures/ImplementationGuide/hl7.fhir.us.cqfmeasures"/>
+    <packageId value="hl7.fhir.us.cqfmeasures"/>
+    <version value="5.0.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_uv_cql">
+    <uri value="http://hl7.org/fhir/uv/cql/ImplementationGuide/hl7.fhir.uv.cql"/>
+    <packageId value="hl7.fhir.uv.cql"/>
     <version value="2.0.0"/>
+  </dependsOn>
+  <dependsOn id="fhir_cqf_common">
+    <uri value="http://fhir.org/guides/cqf/common/ImplementationGuide/fhir.cqf.common"/>
+    <packageId value="fhir.cqf.common"/>
+    <version value="4.0.1"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -258,7 +271,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.5.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.7.1"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">

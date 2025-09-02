@@ -11,14 +11,14 @@
   fhir:id [ fhir:v "va.fhir.vco"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide va.fhir.vco</b></p><a name=\"va.fhir.vco\"> </a><a name=\"hcva.fhir.vco\"> </a><a name=\"va.fhir.vco-en-US\"> </a><h2>VCO</h2><p>The official URL for this implementation guide is: </p><pre>http://va.gov/fhir/vco/ImplementationGuide/va.fhir.vco</pre><div><p>Veteran-Centered Outcomes (VCO) FHIR Implementation Guide</p>\n</div></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide va.fhir.vco</b></p><a name=\"va.fhir.vco\"> </a><a name=\"hcva.fhir.vco\"> </a><h2>VCO</h2><p>The official URL for this implementation guide is: </p><pre>http://va.gov/fhir/vco/ImplementationGuide/va.fhir.vco</pre><div><p>Veteran-Centered Outcomes (VCO) FHIR Implementation Guide</p>\n</div></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://va.gov/fhir/vco/ImplementationGuide/va.fhir.vco"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "VCO"] ; # 
   fhir:title [ fhir:v "Veteran-Centered Outcomes (VCO) Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-21T21:10:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-02T17:50:40+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "U.S. Department of Veterans Affairs"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "U.S. Department of Veterans Affairs" ] ;
@@ -39,6 +39,21 @@
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
   fhir:dependsOn ( [
+     fhir:id [ fhir:v "hl7tx" ] ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:markdown ;
+         fhir:v "Automatically added as a dependency - all IGs depend on HL7 Terminology"
+       ]
+     ] ) ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/ImplementationGuide/hl7.terminology"^^xsd:anyURI ;
+       fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
+     fhir:version [ fhir:v "6.5.0" ]
+  ] [
      fhir:id [ fhir:v "hl7_fhir_us_pco" ] ;
      fhir:uri [
        fhir:v "http://hl7.org/fhir/us/pco/ImplementationGuide/hl7.fhir.us.pco"^^xsd:anyURI ;
@@ -46,14 +61,6 @@
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.us.pco" ] ;
      fhir:version [ fhir:v "dev" ]
-  ] [
-     fhir:id [ fhir:v "hl7_terminology_r4" ] ;
-     fhir:uri [
-       fhir:v "http://terminology.hl7.org/ImplementationGuide/hl7.terminology"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
-     ] ;
-     fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.2.0" ]
   ] [
      fhir:id [ fhir:v "hl7_fhir_us_core" ] ;
      fhir:uri [
@@ -71,13 +78,29 @@
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
      fhir:version [ fhir:v "5.2.0" ]
   ] [
-     fhir:id [ fhir:v "hl7_fhir_uv_cpg" ] ;
+     fhir:id [ fhir:v "hl7_fhir_us_cqfmeasures" ] ;
      fhir:uri [
-       fhir:v "http://hl7.org/fhir/uv/cpg/ImplementationGuide/hl7.fhir.uv.cpg"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/ImplementationGuide/hl7.fhir.uv.cpg>
+       fhir:v "http://hl7.org/fhir/us/cqfmeasures/ImplementationGuide/hl7.fhir.us.cqfmeasures"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/cqfmeasures/ImplementationGuide/hl7.fhir.us.cqfmeasures>
      ] ;
-     fhir:packageId [ fhir:v "hl7.fhir.uv.cpg" ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.us.cqfmeasures" ] ;
+     fhir:version [ fhir:v "5.0.0" ]
+  ] [
+     fhir:id [ fhir:v "hl7_fhir_uv_cql" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/uv/cql/ImplementationGuide/hl7.fhir.uv.cql"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/cql/ImplementationGuide/hl7.fhir.uv.cql>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.uv.cql" ] ;
      fhir:version [ fhir:v "2.0.0" ]
+  ] [
+     fhir:id [ fhir:v "fhir_cqf_common" ] ;
+     fhir:uri [
+       fhir:v "http://fhir.org/guides/cqf/common/ImplementationGuide/fhir.cqf.common"^^xsd:anyURI ;
+       fhir:link <http://fhir.org/guides/cqf/common/ImplementationGuide/fhir.cqf.common>
+     ] ;
+     fhir:packageId [ fhir:v "fhir.cqf.common" ] ;
+     fhir:version [ fhir:v "4.0.1" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -459,7 +482,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
        fhir:value [
          a fhir:code ;
-         fhir:v "hl7.fhir.uv.tools.r4#0.5.0"
+         fhir:v "hl7.fhir.uv.tools.r4#0.7.1"
        ]
      ] [
        fhir:extension ( [

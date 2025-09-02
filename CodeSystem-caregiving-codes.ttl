@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "caregiving-codes"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem caregiving-codes</b></p><a name=\"caregiving-codes\"> </a><a name=\"hccaregiving-codes\"> </a><a name=\"caregiving-codes-en-US\"> </a><p>This case-sensitive code system <code>http://va.gov/fhir/vco/CodeSystem/caregiving-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">caregiving<a name=\"caregiving-codes-caregiving\"> </a></td><td>Caregiving Activities</td></tr><tr><td style=\"white-space:nowrap\">caregiving-status<a name=\"caregiving-codes-caregiving-status\"> </a></td><td>Caregiving Status</td></tr><tr><td style=\"white-space:nowrap\">caregiving-performance<a name=\"caregiving-codes-caregiving-performance\"> </a></td><td>Caregiving performance</td></tr><tr><td style=\"white-space:nowrap\">caregiving-satisfaction<a name=\"caregiving-codes-caregiving-satisfaction\"> </a></td><td>Caregiving satisfaction</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem caregiving-codes</b></p><a name=\"caregiving-codes\"> </a><a name=\"hccaregiving-codes\"> </a><p>This case-sensitive code system <code>http://va.gov/fhir/vco/CodeSystem/caregiving-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">caregiving<a name=\"caregiving-codes-caregiving\"> </a></td><td>Caregiving Activities</td></tr><tr><td style=\"white-space:nowrap\">caregiving-status<a name=\"caregiving-codes-caregiving-status\"> </a></td><td>Caregiving Status</td></tr><tr><td style=\"white-space:nowrap\">caregiving-performance<a name=\"caregiving-codes-caregiving-performance\"> </a></td><td>Caregiving performance</td></tr><tr><td style=\"white-space:nowrap\">caregiving-satisfaction<a name=\"caregiving-codes-caregiving-satisfaction\"> </a></td><td>Caregiving satisfaction</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://va.gov/fhir/vco/CodeSystem/caregiving-codes"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "Caregiving Activity Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
-  fhir:date [ fhir:v "2025-04-21T21:10:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-02T17:50:40+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "U.S. Department of Veterans Affairs"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "U.S. Department of Veterans Affairs" ] ;

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="102375b0-2020-4322-ac2e-103e01f5a7b9"/>
+  <id value="8c7b139b-f96c-450c-b312-c6a17e52a64a"/>
   <meta>
-    <lastUpdated value="2025-04-21T21:11:12.665+00:00"/>
+    <lastUpdated value="2025-09-02T17:51:35.580+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -13,10 +13,8 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on Loinc v2.80</p>
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on Loinc v2.81</p>
             <p>This value set contains 7 concepts</p>
             <table class="codes">
               <tr>
@@ -27,7 +25,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -95,7 +93,7 @@
         <title value="Well-Being Frequency Answers"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-04-21T21:10:00+00:00"/>
+        <date value="2025-09-02T17:50:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -104,14 +102,10 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d56b8076-ee62-4834-b676-f298215b8186"/>
-          <timestamp value="2025-04-21T21:12:06+00:00"/>
+          <identifier value="urn:uuid:9c12ebe3-6aa5-4a90-9778-b13386bb574e"/>
+          <timestamp value="2025-09-02T17:51:54+00:00"/>
           <total value="7"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -130,11 +124,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://loinc.org|2.80"/>
+            <valueUri value="http://loinc.org|2.81"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://loinc.org|2.80"/>
+            <valueUri value="http://loinc.org|2.81"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>
@@ -182,13 +176,11 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
+            <p class="res-header-id"/>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion from tx.fhir.org based on:</p>
               <ul>
-                <li>Loinc v2.80</li>
+                <li>Loinc v2.81</li>
                 <li>
                   <a href="CodeSystem-well-being-answer-codes.html">codesystem Well-Being Answer Codes v0.1.0 (CodeSystem)</a>
                 </li>
@@ -204,7 +196,7 @@
                   <b>System</b>
                 </td>
                 <td>
-                  <b>Display (en-US)</b>
+                  <b>Display</b>
                 </td>
               </tr>
               <tr>
@@ -272,7 +264,7 @@
         <title value="Well-Being Satisfaction Answers"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-04-21T21:10:00+00:00"/>
+        <date value="2025-09-02T17:50:40+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -281,14 +273,10 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ad0fe289-d4df-48aa-97f9-16118ac53c37"/>
-          <timestamp value="2025-04-21T21:12:07+00:00"/>
+          <identifier value="urn:uuid:60c7b169-0b6e-4670-b221-c1ca8b72b5b4"/>
+          <timestamp value="2025-09-02T17:51:54+00:00"/>
           <total value="7"/>
           <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -307,11 +295,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://loinc.org|2.80"/>
+            <valueUri value="http://loinc.org|2.81"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://loinc.org|2.80"/>
+            <valueUri value="http://loinc.org|2.81"/>
           </parameter>
           <parameter>
             <name value="warning-experimental"/>
@@ -371,9 +359,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet well-being-frequency</b>
-            </p>
+            <p class="res-header-id"/>
             <p>This value set expansion contains 7 concepts.</p>
             <table class="codes">
               <tr>
@@ -516,9 +502,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet well-being-satisfaction</b>
-            </p>
+            <p class="res-header-id"/>
             <p>This value set expansion contains 7 concepts.</p>
             <table class="codes">
               <tr>

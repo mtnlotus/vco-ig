@@ -6,14 +6,14 @@
   "status" : "draft",
   "package-id" : "va.fhir.vco",
   "ig-ver" : "0.1.0",
-  "date" : "Mon, 21 Apr, 2025 21:11:12 +0000",
-  "dateISO8601" : "2025-04-21T21:11:12+00:00",
+  "date" : "Tue, 02 Sep, 2025 17:51:35 +0000",
+  "dateISO8601" : "2025-09-02T17:51:35+00:00",
   "errs" : 10,
-  "warnings" : 44,
-  "hints" : 38,
+  "warnings" : 4,
+  "hints" : 42,
   "suppressed-hints" : 94,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 4169113576
+  "maxMemory" : 1989064808
 }

@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "well-being-frequency"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet well-being-frequency</b></p><a name=\"well-being-frequency\"> </a><a name=\"hcwell-being-frequency\"> </a><a name=\"well-being-frequency-en-US\"> </a><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/LA6270-8/\">LA6270-8</a></td><td>Never</td></tr><tr><td><a href=\"https://loinc.org/LA10066-1/\">LA10066-1</a></td><td>Rarely</td></tr><tr><td><a href=\"https://loinc.org/LA6483-7/\">LA6483-7</a></td><td>Occasionally</td></tr><tr><td><a href=\"https://loinc.org/LA10082-8/\">LA10082-8</a></td><td>Sometimes</td></tr><tr><td><a href=\"https://loinc.org/LA10044-8/\">LA10044-8</a></td><td>Often</td></tr><tr><td><a href=\"https://loinc.org/LA13865-3/\">LA13865-3</a></td><td>Almost always</td></tr><tr><td><a href=\"https://loinc.org/LA9933-8/\">LA9933-8</a></td><td>Always</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet well-being-frequency</b></p><a name=\"well-being-frequency\"> </a><a name=\"hcwell-being-frequency\"> </a><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/LA6270-8/\">LA6270-8</a></td><td>Never</td></tr><tr><td><a href=\"https://loinc.org/LA10066-1/\">LA10066-1</a></td><td>Rarely</td></tr><tr><td><a href=\"https://loinc.org/LA6483-7/\">LA6483-7</a></td><td>Occasionally</td></tr><tr><td><a href=\"https://loinc.org/LA10082-8/\">LA10082-8</a></td><td>Sometimes</td></tr><tr><td><a href=\"https://loinc.org/LA10044-8/\">LA10044-8</a></td><td>Often</td></tr><tr><td><a href=\"https://loinc.org/LA13865-3/\">LA13865-3</a></td><td>Almost always</td></tr><tr><td><a href=\"https://loinc.org/LA9933-8/\">LA9933-8</a></td><td>Always</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://va.gov/fhir/vco/ValueSet/well-being-frequency"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "Well-Being Frequency Answers"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-04-21T21:10:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-02T17:50:40+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "U.S. Department of Veterans Affairs"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "U.S. Department of Veterans Affairs" ] ;

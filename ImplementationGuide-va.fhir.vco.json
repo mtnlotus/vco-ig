@@ -3,14 +3,14 @@
   "id" : "va.fhir.vco",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide va.fhir.vco</b></p><a name=\"va.fhir.vco\"> </a><a name=\"hcva.fhir.vco\"> </a><a name=\"va.fhir.vco-en-US\"> </a><h2>VCO</h2><p>The official URL for this implementation guide is: </p><pre>http://va.gov/fhir/vco/ImplementationGuide/va.fhir.vco</pre><div><p>Veteran-Centered Outcomes (VCO) FHIR Implementation Guide</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide va.fhir.vco</b></p><a name=\"va.fhir.vco\"> </a><a name=\"hcva.fhir.vco\"> </a><h2>VCO</h2><p>The official URL for this implementation guide is: </p><pre>http://va.gov/fhir/vco/ImplementationGuide/va.fhir.vco</pre><div><p>Veteran-Centered Outcomes (VCO) FHIR Implementation Guide</p>\n</div></div>"
   },
   "url" : "http://va.gov/fhir/vco/ImplementationGuide/va.fhir.vco",
   "version" : "0.1.0",
   "name" : "VCO",
   "title" : "Veteran-Centered Outcomes (VCO) Implementation Guide",
   "status" : "draft",
-  "date" : "2025-04-21T21:10:00+00:00",
+  "date" : "2025-09-02T17:50:40+00:00",
   "publisher" : "U.S. Department of Veterans Affairs",
   "contact" : [{
     "name" : "U.S. Department of Veterans Affairs",
@@ -31,16 +31,20 @@
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
+    "id" : "hl7tx",
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on HL7 Terminology"
+    }],
+    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+    "packageId" : "hl7.terminology.r4",
+    "version" : "6.5.0"
+  },
+  {
     "id" : "hl7_fhir_us_pco",
     "uri" : "http://hl7.org/fhir/us/pco/ImplementationGuide/hl7.fhir.us.pco",
     "packageId" : "hl7.fhir.us.pco",
     "version" : "dev"
-  },
-  {
-    "id" : "hl7_terminology_r4",
-    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
-    "packageId" : "hl7.terminology.r4",
-    "version" : "6.2.0"
   },
   {
     "id" : "hl7_fhir_us_core",
@@ -55,10 +59,22 @@
     "version" : "5.2.0"
   },
   {
-    "id" : "hl7_fhir_uv_cpg",
-    "uri" : "http://hl7.org/fhir/uv/cpg/ImplementationGuide/hl7.fhir.uv.cpg",
-    "packageId" : "hl7.fhir.uv.cpg",
+    "id" : "hl7_fhir_us_cqfmeasures",
+    "uri" : "http://hl7.org/fhir/us/cqfmeasures/ImplementationGuide/hl7.fhir.us.cqfmeasures",
+    "packageId" : "hl7.fhir.us.cqfmeasures",
+    "version" : "5.0.0"
+  },
+  {
+    "id" : "hl7_fhir_uv_cql",
+    "uri" : "http://hl7.org/fhir/uv/cql/ImplementationGuide/hl7.fhir.uv.cql",
+    "packageId" : "hl7.fhir.uv.cql",
     "version" : "2.0.0"
+  },
+  {
+    "id" : "fhir_cqf_common",
+    "uri" : "http://fhir.org/guides/cqf/common/ImplementationGuide/fhir.cqf.common",
+    "packageId" : "fhir.cqf.common",
+    "version" : "4.0.1"
   }],
   "definition" : {
     "extension" : [{
@@ -338,7 +354,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.5.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.7.1"
     },
     {
       "extension" : [{
